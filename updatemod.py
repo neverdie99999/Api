@@ -1209,4 +1209,4 @@ def start_bot():
     except Exception as e:
         sea=2
 
-
+start_bot()
