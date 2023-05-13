@@ -7,10 +7,6 @@
 # /ca
 # /spy
 # 3sby+id
-# fox
-
-
-#welcome_Foxy
 
 __list_ = [
  b'\x12\x15\x00\x00\x00pD\xad>\xa9<l\x9e\xd0E\xa9\x955S.\xd4ni`\x87Qj$\xf3P)\xb6\xd0\x97PS\xed/\xd0"\xddU\x87\x81\x0c>\xef\x93]A\xbe\xcf\x88r\x16Z\x03d\xb8\xc1\x83\xb4\xa0UQOe\xb5\xc3\xc0b\xa3\xcbR[\xab\xe4\xd2\xc5X\xd3\x93~\x1fN>)\xc2\xbc\xbb\x19\xa3pH\x01\xbcE\xc0\x1a[\x85\xd0\xfaOLu\xf8\xb9z4\xfca\x1e\x00\xb9[[\x1b'
@@ -30,10 +26,6 @@ b'\x12\x15\x00\x00\x00\x80\xa4\xdbE\x9c\xa5V)\x04Yxr\xb6\x08\x9a\xee\x0fm7\xdfL\
 ]
 
 
-
-
-
-#end.wlcm
 invite  = None
 invite2  = None
 s = False
@@ -344,6 +336,9 @@ invite= None
 
 
 
+
+
+
 spams = False
 
 spampacket= b''
@@ -354,6 +349,7 @@ global vares
 vares = 0
 spy = False
 inviteD=False
+inviteE=False
 op = None
 global statues
 statues= True
@@ -408,7 +404,9 @@ def enter_game_and_RM():
         
         C.send(data)
         listt.remove(data)
-    time.sleep(15)
+    time.sleep(8)
+
+    print("start the game ....")
 
     istarted =False
     serversocket.send(start)
@@ -425,7 +423,7 @@ def break_the_matchmaking(server):
     server.send(stop)
 
     server.send(stop)
-    
+    print('sending stop')
     is_start =True
 
     t = threading.Thread(target=enter_game_and_RM, args=())
@@ -449,8 +447,6 @@ class Proxy:
         self.password = "username"
         self.packet = b''
         self.sendmode = 'client-0-'
-        self.spam_level=False
-        self.spam_foxy=False
 
 
     def handle_client(self, connection):
@@ -632,12 +628,11 @@ class Proxy:
                     global s
                     global x
                     global ca
+                    global serversocket
+                    global isconn ,inviteD ,back
                     global hidr
                     global cliee
-                    global serversocket
-                    global remote_send
-                    global botcomendenable
-                    global isconn ,inviteD ,back
+                    global remote_send , botcomendenable
                     if client in r:
 
 
@@ -645,7 +640,6 @@ class Proxy:
                         dataC = client.recv(999999)
                         if port ==39801 :
                             remote_send=remote
-
 
                         if port ==39801 or port ==39699:
                             isconn=True
@@ -704,27 +698,13 @@ class Proxy:
                         if '0315' in dataC.hex()[0:4]:
                             if len(dataC.hex()) >=300:
                                 start = dataC
-                                print(dataC)
+                                
                             is_start =False
 
                             serversocket =remote
                             print("socket is defined suucesfuly !..")
                             t = threading.Thread(target=timesleep, args=())
                             t.start()
-                            #level_PRO++
-                        if "0315" in dataC.hex()[0:4] and len(dataC.hex())>820 and self.spam_level==True:
-                            self.start_game=dataC
-                            print("packet >>"+dataC.hex())
-                            threading.Thread(target=self.level_up ).start()
-                            #level_low
-                        if "0315" in dataC.hex()[0:4] and len(dataC.hex())>820 and self.spam_foxy==True:
-                            self.start_walid=dataC
-                            print("packet >>"+dataC.hex())
-                            threading.Thread(target=self.foxy_up ).start()
-
-
-
-         
 
 
 
@@ -752,7 +732,7 @@ class Proxy:
                         if '1809' in dataS.hex()[26:30] or "1802" in dataS.hex()[26:30] or "1808" in dataS.hex()[26:30]:
                           #  ca=False
                             print(dataC.hex()[0:4])
-                            print('  Team !! ')
+                            print('  the team ')
                             #hackg.send(hackw
                         
 
@@ -760,9 +740,9 @@ class Proxy:
                             print('yes')
                             C = client
                             
-                            if b"http" in dataS: 
+                            if b"http" in dataS:
                                 threading.Thread(target=loop_send  ).start()
-                                print('yes')
+                                print("send Wellcom...")
                             socketsender =client
 
                             if b'Ranked Mode' in dataS:
@@ -787,7 +767,7 @@ class Proxy:
                                     else:
                                         if increase ==True:
 
-                                            print(" game packet founded")
+                                            print("Enter game packet founded")
                                             #      start = dataC
                                             #      print(dataC)
                                             gameplayed =gameplayed+1
@@ -802,7 +782,6 @@ class Proxy:
 
                         else:
                             if  botcomendenable==True:
-
                                 #spam_invite
                                 if '1200' in dataS.hex()[0:4] and '2f646573' in dataS.hex()[0:900] : 
                                     inviteD =True
@@ -1091,7 +1070,6 @@ class Proxy:
 
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا ! !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا !!"))))
-                                 
                                  #uid
 
 
@@ -1145,6 +1123,9 @@ class Proxy:
 
                                 
         
+
+                                
+        
         
         
     def foxy( self , data_join):
@@ -1177,56 +1158,6 @@ class Proxy:
             except Exception as e:
                 
                 pass
-                
-                #level UP
-    def level_up(self ):
-    
-        time.sleep(3)
-        print("start")
-        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-           
-        while self.spam_level==True :
-            
-            
-            
-            self.op.send(self.start_game)
-            
-
-            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            
-            
-            time.sleep(3)
-            
-            #device_low
-            
-    def foxy_up(self ):
-    
-        time.sleep(10)
-        print("start")
-        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            
-        while self.spam_foxy==True :
-            
-            
-            
-            self.op.send(self.start_walid)
-            
-
-            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
-            
-            
-            time.sleep(10)
-
-
-
 
 def start_bot():
     try :
