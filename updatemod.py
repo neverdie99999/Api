@@ -1,2 +1,1212 @@
-#https://t.me/V_O_30
-exec((lambda __, _, : _('''#Pzq \n# ?yiy\n# /qrf\n# /ynt\n# /onpx\n# /2-4-5\n# /pn\n# /fcl\n# 3fol+vq\n# sbk\n\n\n\nvaivgr  = Abar\nvaivgr2  = Abar\nf = Snyfr\ntnzrcynlrq= 0\nk =1\nyvfgg =[]\nfreirefbpxrg =Abar\nP =Abar\nvfgnegrq = Snyfr\nfgneg =Abar\nfgbc =o\'\\k03\\k15\\k00\\k00\\k00\\k10\\g\\k1r\\ko7A\\krs9\\ko7JA5\\k96\\k02\\ko0t\\k0p\\kn8\'\nehafpevcg = 0\nvzcbeg er \nvfpbaa = Snyfr\n\nvapernfr =Snyfr\n\nonpx=Snyfr\npn=Snyfr\nfbpxgvba =Abar\n\nqrs fge2urk(f:fge):\n    erghea \'\'.wbva([urk(beq(p))[2:].msvyy(2) sbe p va f])\n\nqrs trg_vasb(hfre_vq):\n\ttybony ss_cynlre_ertvba,erdhrfgf,wfba\n\tvzcbeg erdhrfgf,wfba\n\n\tvq = hfre_vq\n\tpbbxvrf = {\n    \'_tn\': \'TN1.1.2123120599.1674510784\',\n    \'_soc\': \'so.1.1674510785537.363500115\',\n    \'_tn_7WMSW14O0O\': \'TF1.1.1674510784.1.1.1674510789.0.0.0\',\n    \'fbhepr\': \'zo\',\n    \'ertvba\': \'ZN\',\n    \'ynathntr\': \'ne\',\n    \'_tn_GIM1YT7ORO\': \'TF1.1.1674930050.3.1.1674930171.0.0.0\',\n    \'qngnqbzr\': \'6u5S5pk_TcohAgNxsgZcQwfoYpY3bc_5J5M-ackrG_dpRr_7civy2RhW6y~WyLQkRNYrliXGm3~YlP1bcDtqC~7~HQW0wLpC5c20VDyG3nORVXQLYU~pdqsKaaE6SNY0\',\n    \'frffvba_xrl\': \'rsjsmjrfv9hv8qehk4czdvk4pbfnar0l\',\n}\n\n\turnqref = {\n    \'Npprcg-Ynathntr\': \'ra-HF,ra;d=0.9\',\n    \'Pbaarpgvba\': \'xrrc-nyvir\',\n    # \'Pbbxvr\': \'_tn=TN1.1.2123120599.1674510784; _soc=so.1.1674510785537.363500115; _tn_7WMSW14O0O=TF1.1.1674510784.1.1.1674510789.0.0.0; fbhepr=zo; ertvba=ZN; ynathntr=ne; _tn_GIM1YT7ORO=TF1.1.1674930050.3.1.1674930171.0.0.0; qngnqbzr=6u5S5pk_TcohAgNxsgZcQwfoYpY3bc_5J5M-ackrG_dpRr_7civy2RhW6y~WyLQkRNYrliXGm3~YlP1bcDtqC~7~HQW0wLpC5c20VDyG3nORVXQLYU~pdqsKaaE6SNY0; frffvba_xrl=rsjsmjrfv9hv8qehk4czdvk4pbfnar0l\',\n    \'Bevtva\': \'uggcf://fubc2tnzr.pbz\',\n    \'Ersrere\': \'uggcf://fubc2tnzr.pbz/ncc/100067/vqybtva\',\n    \'Frp-Srgpu-Qrfg\': \'rzcgl\',\n    \'Frp-Srgpu-Zbqr\': \'pbef\',\n    \'Frp-Srgpu-Fvgr\': \'fnzr-bevtva\',\n    \'Hfre-Ntrag\': \'Zbmvyyn/5.0 (Yvahk; Naqebvq 11; Erqzv Abgr 8) NccyrJroXvg/537.36 (XUGZY, yvxr Trpxb) Puebzr/107.0.0.0 Zbovyr Fnsnev/537.36\',\n    \'npprcg\': \'nccyvpngvba/wfba\',\n    \'pbagrag-glcr\': \'nccyvpngvba/wfba\',\n    \'frp-pu-hn\': \'"Puebzvhz";i="107", "Abg=N?Oenaq";i="24"\',\n    \'frp-pu-hn-zbovyr\': \'?1\',\n    \'frp-pu-hn-cyngsbez\': \'"Naqebvq"\',\n    \'k-qngnqbzr-pyvragvq\': \'6u5S5pk_TcohAgNxsgZcQwfoYpY3bc_5J5M-ackrG_dpRr_7civy2RhW6y~WyLQkRNYrliXGm3~YlP1bcDtqC~7~HQW0wLpC5c20VDyG3nORVXQLYU~pdqsKaaE6SNY0\',\n}\n\n\twfba_qngn = {\n    \'ncc_vq\': 100067,\n    \'ybtva_vq\': s\'{vq}\',\n    \'ncc_freire_vq\': 0,\n}\n\n\terf = erdhrfgf.cbfg(\'uggcf://fubc2tnzr.pbz/ncv/nhgu/cynlre_vq_ybtva\', pbbxvrf=pbbxvrf, urnqref=urnqref, wfba=wfba_qngn)\n\terfcbafr = wfba.ybnqf(erf.grkg)\n\tgel :\n\t\tanzr=erfcbafr[\'avpxanzr\']\n\t\tertvba = erfcbafr["ertvba"]\n\t\tanzr = [anzr,ertvba]\n\t\tss_cynlre_ertvba =anzr[1]\n\trkprcg:\n\t\tcnff\n\terghea anzr[0]\nqrs pbaireg_gb_olgrf(vachg_fgevat):\n    # ercynpr aba-urknqrpvzny punenpgre jvgu rzcgl fgevat\n    pyrnarq_fgevat = vachg_fgevat[:231] + vachg_fgevat[232:]\n    # pbaireg pyrnarq fgevat gb olgrf\n    bhgchg_olgrf = olgrf.sebzurk(pyrnarq_fgevat)\n    erghea bhgchg_olgrf\nqrs tra_cnpxrg(qngn : fge):\n    CnpxrgYratug = qngn[7:10]\n    CnpxrgUrqne1= qngn[10:32]\n    CnlYbnq= qngn[32:34]\n    AnzrYratugNaqAnzr=er.svaqnyy(\'1o12(.*)1n02\' , qngn)[0]\n    Anzr = AnzrYratugNaqAnzr[2:]\n    AnzrYratug = AnzrYratugNaqAnzr[:2]\n\n    ArjAnzr="5o46463030305q4q6s64652042792040594o5n205445414q"\n    ArjAnzrYratug = yra(ArjAnzr)//2\n\n    ArjClybnqYratug=vag(vag(\'0k\'+CnlYbnq , 16) - vag("0k"+AnzrYratug , 16))+vag(ArjAnzrYratug)\n    ArjCnpxrgYratug = (vag(\'0k\'+CnpxrgYratug , 16)-vag(\'0k\'+CnlYbnq , 16)) + ArjClybnqYratug\n\n    cnpxrg = qngn.ercynpr(Anzr , fge((ArjAnzr)))\n    cnpxrg = cnpxrg.ercynpr(fge(\'1o12\'+AnzrYratug) , \'1o12\'+fge(urk(ArjAnzrYratug)[2:]))\n    cnpxrg = cnpxrg.ercynpr(CnlYbnq , fge(urk(ArjClybnqYratug)[2:]))\n    cnpxrg = cnpxrg.ercynpr(CnpxrgYratug[0] , fge(urk(ArjCnpxrgYratug)[2:]) )\n    \n    erghea cnpxrg\nqrs tra_zfti2(cnpxrg  , ercynl):\n    \n    ercynl  = ercynl.rapbqr(\'hgs-8\')\n    ercynl = ercynl.urk()\n    \n\n    urqne = cnpxrg[0:8]\n    cnpxrgYratgu = cnpxrg[8:10] #\n    cnxrgObql = cnpxrg[10:32]\n    clybnqobqlYratgu = cnpxrg[32:34]#\n    clybnqobql2= cnpxrg[34:60]\n    \n    clybnqyratgu = cnpxrg[60:62]#\n    clybnqgrkg  = er.svaqnyy(e\'{}(.*?)28\'.sbezng(clybnqyratgu) , cnpxrg[50:])[0]\n    clybnqGvyr = cnpxrg[vag(vag(yra(clybnqgrkg))+62):]\n    \n    \n    ArjGrkgYratgu = (urk((vag(s\'0k{clybnqyratgu}\', 16) - vag(yra(clybnqgrkg)//2) ) + vag(yra(ercynl)//2))[2:])\n    vs yra(ArjGrkgYratgu) ==1:\n        ArjGrkgYratgu = "0"+fge(ArjGrkgYratgu)\n        \n    ArjcnxrgYratgu = urk(((vag(s\'0k{cnpxrgYratgu}\', 16) - vag((yra(clybnqgrkg))//2) ) ) + vag(yra(ercynl)//2) )[2:]\n    ArjClybnqYratgu = urk(((vag(s\'0k{clybnqobqlYratgu}\', 16) - vag(yra(clybnqgrkg)//2))  )+ vag(yra(ercynl)//2) )[2:]\n\n    svanyylCnpxrg = urqne + ArjcnxrgYratgu +cnxrgObql + ArjClybnqYratgu +clybnqobql2+ArjGrkgYratgu+ ercynl + clybnqGvyr\n    \n    erghea fge(svanyylCnpxrg)\n\n\n\nqrs purpx_vasbezngvba(hvq,nooe):\n\tcynlre_hvq = hvq\n\n\tfreiref_anzr_qo = {\n\t"oq": "بنغلاديش",\n\t"oe": "البرازيل",\n\t"rh": "اروبا",\n\t"ux": "هونج كونج",\n\t"vq": "أندونوسيا",\n\t"va": "الهند",\n\t"zr": "الشرق الأوسط",\n\t"zb": "ماكوي",\n\t"zl": "ماليسيا",\n\t"cu": "فليبينيس",\n\t"cx": "باكيستان",\n\t"eh": "روسيا",\n\t"fn": "أمريكا",\n\t"ft": "سنغفورة",\n\t"gu": "التيلاند",\n\t"gj": "الطيوان",\n\t"ia": "فيتنام",\n\t"vaq" : "الهند"\n\t}\n\tqrs trg_freire_anzr(nooe):\n\t\tfubeg_anzr = nooe.ybjre()\n\t\terghea freiref_anzr_qo[fubeg_anzr]\n\tgel:\n\t\tcynlre_freire = trg_freire_anzr(nooe)\n\trkprcg:\n\t\tcynlre_freire = nooe\n\tqrs purpx_vs_onaarq(hvq):\n\t\terfcbafr_oby = Abar\n\t\terdhrfg_hey = s"uggcf://ss.tneran.pbz/ncv/nagvunpx/purpx_onaarq?ynat=ra&hvq={hvq}"\n\t\terd_freire = erdhrfgf.trg(erdhrfg_hey)\n\t\terd_erfcbafr = erd_freire.grkg\n\t\terd_erfcbafr = wfba.ybnqf(erd_erfcbafr)\n\t\tvs erd_erfcbafr["fgnghf"]=="fhpprff":\n\t\t\tsbezhyn = erd_erfcbafr["qngn"]["vf_onaarq"]\n\t\t\tvs sbezhyn==1:\n\t\t\t\terfcbafr_oby=Gehr\n\t\t\tryvs sbezhyn==0:\n\t\t\t\terfcbafr_oby=Snyfr\n\t\terghea erfcbafr_oby\n\tqrs erghea_erfhyg(erf_oby):\n\t\tvs erf_oby:\n\t\t#ona\n\t\t\terghea "[SS0000][o][p]تم تعليقه !"\n\t\tryvs erf_oby==Snyfr:\n\t\t#pyrne\n\t\t\terghea "[00SS00][o][p]متصل !"\n\tzft = erghea_erfhyg(purpx_vs_onaarq(hvq))\n\terghea (cynlre_freire,zft)\n\nqrs trgvasbolvq(cnpxrg , hfre_vq , pyvrag):\n    cynlre_anzr = trg_vasb(hfre_vq)\n    cynlre_ertvba = ss_cynlre_ertvba\n    erprvirq_qngn = purpx_vasbezngvba(hfre_vq,cynlre_ertvba)\n    svany_vasb_ertvba = erprvirq_qngn[0]\n    svany_ona_zft = erprvirq_qngn[1]\n    #cynlre_anzr\n    #svany_vasb_ertvba\n    #\n#--------------------------------------------------\n\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SSSS][o][p]معلومات الاعب ! """)\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SSSS][o][p]معلومات الاعب !  """)\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        \n#vq cylnre\n    gvzr.fyrrc(4.0)\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SSSS][o][p]أيدي الاعب : [SSN500]""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SSSS][o][p]أيدي الاعب : [SSN500]""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SS00][o][p]{hfre_vq}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SS00][o][p]{hfre_vq}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    #fcynpu\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[ssq319][o][p]جاري تحميل . . .""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[ssq319][o][p]جاري تحميل . . .""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        #anzr\n        \n        \n    gvzr.fyrrc(2.0)\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SSSS][o][p]إسم لاعب : [SSN500]""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SSSS][o][p]إسم لاعب : [SSN500]""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SS00][o][p]{cynlre_anzr}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SS00][o][p]{cynlre_anzr}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        \n        \n        #fcynpu1\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[ssq319][o][p]جاري تحميل . . .""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[ssq319][o][p]جاري تحميل . . .""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        \n        \n        #ertvba\n    gvzr.fyrrc(2.0)\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SSSS][o][p]المنطقة : [SSN500]""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SSSS][o][p]المنطقة : [SSN500]""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SS00][o][p]{svany_vasb_ertvba}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SS00][o][p]{svany_vasb_ertvba}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        \n        ##\n#fcynpu2\n\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[ssq319][o][p]جاري تحميل . . .""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[ssq319][o][p]جاري تحميل . . .""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        \n        \n        #ona purpx\n    gvzr.fyrrc(2.0)\n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SSSS][o][p]حالة الاعب : """)\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SSSS][o][p]حالة الاعب : """)\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n        \n        \n        \n        #\n    \n    clybnq_3 = tra_zfti2_pyna(cnpxrg , s"""[00SS00][o][p]{svany_ona_zft}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    clybnq_3 = tra_zfti2(cnpxrg , s"""[00SS00][o][p]{svany_ona_zft}""")\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n    pyvrag.fraq(olgrf.sebzurk(clybnq_3))\n\n\n        \n\n\n\nqrs tra_zfti2_pyna(cnpxrg  , ercynl):\n    \n    ercynl  = ercynl.rapbqr(\'hgs-8\')\n    ercynl = ercynl.urk()\n\n    urqne = cnpxrg[0:8]\n    cnpxrgYratgu = cnpxrg[8:10] #\n    cnxrgObql = cnpxrg[10:32]\n    clybnqobqlYratgu = cnpxrg[32:34]#\n    clybnqobql2= cnpxrg[34:64]\n    clybnqyratgu = cnpxrg[64:66]#\n    clybnqgrkg  = er.svaqnyy(e\'{}(.*?)28\'.sbezng(clybnqyratgu) , cnpxrg[50:])[0]\n    clybnqGvyr = cnpxrg[vag(vag(yra(clybnqgrkg))+66):]\n    \n\n    ArjGrkgYratgu = (urk((vag(s\'0k{clybnqyratgu}\', 16) - vag(yra(clybnqgrkg)//2) ) + vag(yra(ercynl)//2))[2:])\n    vs yra(ArjGrkgYratgu) ==1:\n        ArjGrkgYratgu = "0"+fge(ArjGrkgYratgu)\n    ArjcnxrgYratgu = urk(((vag(s\'0k{cnpxrgYratgu}\', 16) - vag(yra(clybnqgrkg)//2) ) - vag(yra(clybnqyratgu))) + vag(yra(ercynl)//2) + vag(yra(ArjGrkgYratgu)))[2:]\n    ArjClybnqYratgu = urk(((vag(s\'0k{clybnqobqlYratgu}\', 16) - vag(yra(clybnqgrkg)//2)) -vag(yra(clybnqyratgu)) )+ vag(yra(ercynl)//2) + vag(yra(ArjGrkgYratgu)))[2:]\n    \n    \n    svanyylCnpxrg = urqne + ArjcnxrgYratgu +cnxrgObql + ArjClybnqYratgu +clybnqobql2+ArjGrkgYratgu+ ercynl + clybnqGvyr\n\n    erghea svanyylCnpxrg\nvaivgr= Abar\n\n\n\n\nfcnzf = Snyfr\n\nfcnzcnpxrg= o\'\'\nerpbeqzbqr= Snyfr\n\nfraqcnpxg=Snyfr\ntybony inerf\ninerf = 0\nfcl = Snyfr\nvaivgrQ=Snyfr\nvaivgrR=Gehr\nbc = Abar\ntybony fgnghrf\nfgnghrf= Gehr\nFBPXF_IREFVBA = 5\ncnpxrg =o\'\'\nfcnzvat =Gehr\nshyy=Snyfr\nvzcbeg bf\nvzcbeg flf\n\n\nqrs fcnz(freire,cnpxrg):\n    juvyr Gehr:\n\n\n        gvzr.fyrrc(0.015)\n\n\n        freire.fraq(cnpxrg)\n        vs   erpbeqzbqr ==Snyfr:\n\n            oernx\n\nqrs qrfgebl(erzbgr,qngnP):\n    \n    ine= 0\n    sbe v va enatr(50):\n        \n        ine= ine+1\n       \n        gvzr.fyrrc(0.010)\n        sbe v va enatr(10):\n            \n            erzbgr.fraq(qngnP)\n    gvzr.fyrrc(0.5)\n\n\n\nqrs gvzrfyrrc():\n    gvzr.fyrrc(60)\n    #cevag(vfgnegrq)\n    vs vfgnegrq == Gehr:\n        freirefbpxrg.fraq(fgneg)\n\n\nqrs ragre_tnzr_naq_EZ():\n    tybony yvfgg\n    sbe qngn va yvfgg:\n        \n        P.fraq(qngn)\n        yvfgg.erzbir(qngn)\n    gvzr.fyrrc(15)\n\n    cevag("fgneg gur tnzr ....")\n\n    vfgnegrq =Snyfr\n    freirefbpxrg.fraq(fgneg)\n\n    g = guernqvat.Guernq(gnetrg=gvzrfyrrc, netf=())\n    g.fgneg()\nqrs oernx_gur_zngpuznxvat(freire):\n    tybony vf_fgneg\n    tybony vfeha\n\n    freire.fraq(fgbc)\n\n\n    freire.fraq(fgbc)\n\n    freire.fraq(fgbc)\n    cevag(\'fraqvat fgbc\')\n    vf_fgneg =Gehr\n\n    g = guernqvat.Guernq(gnetrg=ragre_tnzr_naq_EZ, netf=())\n    g.fgneg()\n\n\nvzcbeg gvzr\n\nvzcbeg fbpxrg\nvzcbeg guernqvat\nvzcbeg fryrpg\nFBPXF_IREFVBA= 5\n\n\npynff Cebkl:\n\n\n\n    qrs __vavg__(frys):\n        frys.hfreanzr = "hfreanzr"\n        frys.cnffjbeq = "hfreanzr"\n        frys.cnpxrg = o\'\'\n        frys.fraqzbqr = \'pyvrag-0-\'\n        frys.fcnz_yriry=Snyfr\n        frys.fcnz_sbkl=Snyfr\n\n\n    qrs unaqyr_pyvrag(frys, pbaarpgvba):\n\n\n\n        irefvba, azrgubqf = pbaarpgvba.erpi(2)\n        zrgubqf = frys.trg_ninvynoyr_zrgubqf(azrgubqf, pbaarpgvba)\n\n\n\n        vs 2   va frg(zrgubqf):\n            vs 2 va frg(zrgubqf):\n\n                pbaarpgvba.fraqnyy(olgrf([FBPXF_IREFVBA, 2]))\n            ryfr:\n                pbaarpgvba.fraqnyy(olgrf([FBPXF_IREFVBA, 0]))\n\n\n\n\n\n        vs abg frys.irevsl_perqragvnyf(pbaarpgvba,zrgubqf):\n            erghea\n        irefvba, pzq, _, nqqerff_glcr = pbaarpgvba.erpi(4)\n\n\n\n        vs nqqerff_glcr == 1:\n            nqqerff = fbpxrg.varg_agbn(pbaarpgvba.erpi(4))\n        ryvs nqqerff_glcr == 3:\n            qbznva_yratgu = pbaarpgvba.erpi(1)[0]\n            nqqerff = pbaarpgvba.erpi(qbznva_yratgu)\n            nqqerff = fbpxrg.trgubfgolanzr(nqqerff)\n            anzr= fbpxrg.trgubfganzr()\n\n\n\n        cbeg = vag.sebz_olgrf(pbaarpgvba.erpi(2), \'ovt\', fvtarq=Snyfr)\n        cbeg2 = cbeg\n        gel:\n\n\n\n\n\n            erzbgr = fbpxrg.fbpxrg(fbpxrg.NS_VARG, fbpxrg.FBPX_FGERNZ)\n            erzbgr.pbaarpg((nqqerff, cbeg))\n            #cevag(" pbaarpg gb {} \\a \\a \\a ".sbezng(nqqerff))\n            ovaq_nqqerff = erzbgr.trgfbpxanzr()\n\n            nqqe = vag.sebz_olgrf(fbpxrg.varg_ngba(\n                ovaq_nqqerff[0]), \'ovt\', fvtarq=Snyfr)\n            cbeg = ovaq_nqqerff[1]\n\n            ercyl = o\'\'.wbva([\n                FBPXF_IREFVBA.gb_olgrf(1, \'ovt\'),\n                vag(0).gb_olgrf(1, \'ovt\'),\n                vag(0).gb_olgrf(1, \'ovt\'),\n                vag(1).gb_olgrf(1, \'ovt\'),\n                nqqe.gb_olgrf(4, \'ovt\'),\n                cbeg.gb_olgrf(2, \'ovt\')\n\n            ])\n        rkprcg Rkprcgvba nf r:\n\n            ercyl = frys.trarengr_snvyrq_ercyl(nqqerff_glcr, 5)\n\n\n        pbaarpgvba.fraqnyy(ercyl)\n\n\n        frys.obgqri(pbaarpgvba, erzbgr,cbeg2)\n\n\n    qrs trarengr_snvyrq_ercyl(frys, nqqerff_glcr, reebe_ahzore):\n        erghea o\'\'.wbva([\n            FBPXF_IREFVBA.gb_olgrf(1, \'ovt\'),\n            reebe_ahzore.gb_olgrf(1, \'ovt\'),\n            vag(0).gb_olgrf(1, \'ovt\'),\n            nqqerff_glcr.gb_olgrf(1, \'ovt\'),\n            vag(0).gb_olgrf(4, \'ovt\'),\n            vag(0).gb_olgrf(4, \'ovt\')\n        ])\n\n    qrs irevsl_perqragvnyf(frys, pbaarpgvba,zrgubqf):\n\n        vs 2 va zrgubqf:\n\n\n            irefvba = beq(pbaarpgvba.erpi(1))\n\n\n            hfreanzr_yra = beq(pbaarpgvba.erpi(1))\n            hfreanzr = pbaarpgvba.erpi(hfreanzr_yra).qrpbqr(\'hgs-8\')\n\n            cnffjbeq_yra = beq(pbaarpgvba.erpi(1))\n            cnffjbeq = pbaarpgvba.erpi(cnffjbeq_yra).qrpbqr(\'hgs-8\')\n            #   cevag(hfreanzr,cnffjbeq)\n            vs hfreanzr == frys.hfreanzr naq cnffjbeq == frys.cnffjbeq:\n\n                erfcbafr = olgrf([irefvba, 0])\n                pbaarpgvba.fraqnyy(erfcbafr)\n\n\n                erghea Gehr\n\n            erfcbafr = olgrf([irefvba, 0])\n            pbaarpgvba.fraqnyy(erfcbafr)\n\n            erghea Gehr\n\n        ryfr:\n\n\n            irefvba =1\n            erfcbafr = olgrf([irefvba, 0])\n            pbaarpgvba.fraqnyy(erfcbafr)\n\n\n            erghea Gehr\n\n    qrs trg_ninvynoyr_zrgubqf(frys, azrgubqf, pbaarpgvba):\n        zrgubqf = []\n        sbe v va enatr(azrgubqf):\n            zrgubqf.nccraq(beq(pbaarpgvba.erpi(1)))\n        erghea zrgubqf\n\n    qrs ehaf(frys, ubfg, cbeg):\n        gel:\n            ine =  0\n\n\n\n\n\n\n\n            f = fbpxrg.fbpxrg(fbpxrg.NS_VARG, fbpxrg.FBPX_FGERNZ)\n            #f.frgfbpxbcg(fbpxrg.FBY_FBPXRG, fbpxrg.FB_ERHFRNQQE, 1)\n            f.ovaq((ubfg, cbeg))\n            f.yvfgra()\n\n\n\n            juvyr Gehr:\n                ine =ine+1\n\n\n                pbaa, nqqe = f.npprcg()\n                ehaavat = Snyfr\n\n                g = guernqvat.Guernq(gnetrg=frys.unaqyr_pyvrag, netf=(pbaa,))\n                g.fgneg()\n        rkprcg Rkprcgvba nf r:\n            cevag("Perngrq")\n            \n\n\n\n\n\n\n\n\n\n\n    #pbaarpg\n    qrs obgqri(frys, pyvrag, erzbgr, cbeg):\n        \n            juvyr Gehr:\n                e, j, r = fryrpg.fryrpg([pyvrag, erzbgr], [], [])\n\n                bq= o\'\'\n                tybony fgneg\n                vs pyvrag va e be erzbgr va e:\n                    tybony vaivgr\n                    tybony vaivgr2\n                    tybony f\n                    tybony k\n                    tybony pn\n                    tybony uvqe\n                    tybony pyvrr\n                    tybony freirefbpxrg\n                    tybony vfpbaa ,vaivgrQ ,onpx\n                    vs pyvrag va e:\n\n\n\n                        qngnP = pyvrag.erpi(999999)\n\n\n                        vs cbeg ==39801 be cbeg ==39699:\n                            vfpbaa=Gehr\n                        vs  "39699" va fge(erzbgr) :\n                            frys.bc = erzbgr\n                \n                        vs \'0515\' va qngnP.urk()[0:4] naq yra(qngnP.urk()) >= 141  :                  \n                            frys.qngn_wbva=qngnP\n\n                            \n                        \n                        vs \'0515\' va qngnP.urk()[0:4] naq yra(qngnP.urk()) <50  :  \n                            cevag(erzbgr)                \n                            frys.qngn_onpx=qngnP\n\n                        vs  cbeg ==39699:\n                            #cevag(" pngpu n fbpxrg fve ")\n                            #  cevag(s"{qngnP}\\a")\n                            vaivgr= erzbgr\n                        tybony uvqr\n                        uvqr =Snyfr\n                        tybony erpbeqzbqr\n                        #ynnnnnnt\n                        vs \'1215\' va qngnP.urk()[0:4] naq erpbeqzbqr ==Gehr:\n\n                            tybony fcnzcnpxrg\n                            fcnzcnpxrg =qngnP\n\n                            #erpbeqzbqr=Snyfr\n                            tybony fgnghrf\n                            fgnghrf= Gehr\n                            gvzr.fyrrc(5)\n\n                            o = guernqvat.Guernq(gnetrg=fcnz, netf=(erzbgr,fcnzcnpxrg))\n                            o.fgneg()\n\n\n                                    #vaivgr_Q\n                        vs \'0515\' va qngnP.urk()[0:4] naq yra(qngnP.urk()) >=900 naq vaivgrQ==Gehr naq uvqr ==Snyfr :\n                            ine = 0\n                            z = guernqvat.Guernq(gnetrg=qrfgebl, netf=(erzbgr,qngnP))\n                            z.fgneg()\n                            tybony fcnzf\n                            fcnzf =Gehr\n\n                        vs \'0515\' va qngnP.urk()[0:4] naq yra(qngnP.urk()) >= 141:\n\n                            uvqr = Gehr\n\n\n                            tybony orasvg\n                            orasvg = Snyfr\n\n\n                                    #yiy_HC\n                        vs \'0315\' va qngnP.urk()[0:4]:\n                            vs yra(qngnP.urk()) >=300:\n                                fgneg = qngnP\n                                cevag(qngnP)\n                            vf_fgneg =Snyfr\n\n                            freirefbpxrg =erzbgr\n                            cevag("fbpxrg vf qrsvarq fhhprfshyl !..")\n                            g = guernqvat.Guernq(gnetrg=gvzrfyrrc, netf=())\n                            g.fgneg()\n                            #yriry_CEB++\n                        vs "0315" va qngnP.urk()[0:4] naq yra(qngnP.urk())>820 naq frys.fcnz_yriry==Gehr:\n                            frys.fgneg_tnzr=qngnP\n                            cevag("cnpxrg >>"+qngnP.urk())\n                            guernqvat.Guernq(gnetrg=frys.yriry_hc ).fgneg()\n                            #yriry_ybj\n                        vs "0315" va qngnP.urk()[0:4] naq yra(qngnP.urk())>820 naq frys.fcnz_sbkl==Gehr:\n                            frys.fgneg_jnyvq=qngnP\n                            cevag("cnpxrg >>"+qngnP.urk())\n                            guernqvat.Guernq(gnetrg=frys.sbkl_hc ).fgneg()\n\n\n\n         \n\n\n\n\n\n#zvmnnnnng\n\n\n                        vs erzbgr.fraq(qngnP) <= 0:\n                            oernx\n                    vs erzbgr va e:\n\n                        tybony bco\n                        tybony yvfgg\n                        tybony P\n                        tybony vfgnegrq\n                        tybony tnzrcynlrq\n                        tybony cnpxrg\n                        tybony fbpxgvba\n                        tybony pn\n                        tybony vapernfr ,onpx\n                        qngnF = erzbgr.erpi(999999)\n                        \n                        \n                        vs \'1809\' va qngnF.urk()[26:30] be "1802" va qngnF.urk()[26:30] be "1808" va qngnF.urk()[26:30]:\n                          #  pn=Snyfr\n                            cevag(qngnP.urk()[0:4])\n                            cevag(\'  gur grnz \')\n                            #unpxt.fraq(unpxj\n                        \n\n                        vs \'0300\' va qngnF.urk()[0:4] :\n                            #cevag(\'lrf\')\n                            P = pyvrag\n                            cevag(qngnF)\n                            fbpxrgfraqre =pyvrag\n\n                            vs o\'Enaxrq Zbqr\' va qngnF:\n                                #cevag("j")\n                                pyvrag.fraq(qngnF)\n                            ryfr:\n\n\n\n                                vs o\'pngoned\' va qngnF:\n                                    iqfs=3\n                                ryfr:\n                                    #\n                                    unpxj= qngnF\n                                    unpxt= pyvrag\n\n                                    vs yra(qngnF.urk()) <= 100:\n                                        r=2\n                                    #  cevag("nagv qrgrpg !")\n\n\n                                    ryfr:\n                                        vs vapernfr ==Gehr:\n\n                                            cevag("Ragre tnzr cnpxrg sbhaqrq")\n                                            #      fgneg = qngnP\n                                            #      cevag(qngnP)\n                                            tnzrcynlrq =tnzrcynlrq+1\n                                            vfgnegrq = Gehr\n                                            #      cevag(s"{qngnF} \\a")\n                                            yvfgg.nccraq(qngnF)\n                                            #evag(yvfgg)\n                                            g = guernqvat.Guernq(gnetrg=oernx_gur_zngpuznxvat, netf=(freirefbpxrg,))\n                                            g.fgneg()\n                                        ryfr:\n                                            pyvrag.fraq(qngnF)\n\n                        ryfr:\n                            #  vs \'0000\' !va qngnF.urk()[:4] naq \'1200\' !va qngnF.urk()[:4] naq \'1700\' !va qngnF.urk()[:4]:\n                            #  cevag(qngnF.urk(),"\\a")\n                            vs \'0500\' va qngnF.urk()[:4] naq o\'\\k05\\k15\\k00\\k00\\k00\\k10M\\kpn\\ks5&G;\\k0pN\\k01\\k16\\kr0\\k05\\ko2\\krn\\kr4\\k0o\' va qngnP:\n                                s=2\n                                #freirefbpxrg.fraq(o\'\\k05\\k15\\k00\\k00\\k00\\k10\\k9o@k\\kq7\\k15\\k9r\\k0s\\ksnM+\\k88\\kr5\\knp\\k18\\k9sj\')\n\n                            ryfr:\n                                #fcnz_vaivgr\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s646573\' va qngnF.urk()[0:900] : \n                                    vaivgrQ =Gehr\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SSSS][o][p]تدمير سكواد <<-- [00ss00][o][p] م")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SSSS][o][p]تدمير سكواد <<-- [00ss00][o][p] مفعل"))))\n\n                                    gvzr.fyrrc(3.5)\n                                    \n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ"))))\n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-12]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-12]"))))\n                                    \n                                    \n\n                                    \n                                    \n                                    \n                                    #Sbyybj_Hf\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'666s7879\' va qngnF.urk()[0:900] :\n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Vafgntenz : [SSP800][o][p]@gur_sbkl999"))))\n                                    #Lbhghor\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Lbhghor : [SSP800][o][p] Gur Sbkl Ⓥ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Lbhghor : [SSP800][o][p]Gur Sbkl Ⓥ"))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-03]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-03]"))))\n                                    \n                                    \n                                    #Sbyybj_Hf2\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'466s7879\' va qngnF.urk()[0:900] :\n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Vafgntenz : [SSP800][o][p]@gur_sbkl999"))))\n                                    #Lbhghor\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Lbhghor : [SSP800][o][p] Gur Sbkl Ⓥ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Lbhghor : [SSP800][o][p]Gur Sbkl Ⓥ"))))\n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-03]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-03]"))))\n                                    \n                                    \n                                    #vaivgr_fcnz BSS\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s2q646573\' va qngnF.urk()[0:900] :\n                                    vaivgrQ =Snyfr\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[SS0000][o][p]توقفت !")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[SS0000][o][p]توقفت ! "))))                       \n                                    \n                                    \n                                        #yriry_BA       CEB++\n                                                                     \n                                vs \'1200\' va qngnF.urk()[0:4] naq \'3s6p766p\' va qngnF.urk()[0:900] :\n                                    \n\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]زيادة لفل مفعل !!")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]زيادة لفل مفعل  !! "))))\n                                    \n                                    gvzr.fyrrc(2.0)\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]المود : [171qpq][o][p] ذئب وحيد")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]المود : [171qpq][o][p] ذئب وحيد"))))\n                                    \n                                    gvzr.fyrrc(3.5)\n                                    \n                                    frys.fcnz_yriry=Gehr\n                                    \n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ"))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-07]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-07]"))))\n                                    \n                                    \n                                    \n                                    \n                                    \n                                    \n                                #yriry_BSS\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'3s2q6p766p\' va qngnF.urk()[0:900] :\n                                \n\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[SS0000][o][p]توقفت !")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[SS0000][o][p]توقفت !"))))\n                                    \n                                    frys.fcnz_yriry=Snyfr\n                                    \n                                    \n                                    \n                                    \n                                    \n                                        #yriry_BA       Ybj\n                                                                     \n                                vs \'1200\' va qngnF.urk()[0:4] naq \'3S6P766P31\' va qngnF.urk()[0:900] :\n                                    \n\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]زيادة لفل مفعلة للأجهزة البطيئة !!")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]زيادة لفل مغعلة للأجهزة البطيئة  !! "))))\n                                    \n                                    gvzr.fyrrc(2.0)\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]المود : [171qpq][o][p] ذئب وحيد")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]المود : [171qpq][o][p] ذئب وحيد"))))\n                                    \n                                    gvzr.fyrrc(3.5)\n                                    \n                                    frys.fcnz_sbkl=Gehr\n                                    \n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ"))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-07]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-07]"))))\n                                    \n                                    \n                                    \n                                    \n                                    \n                                    \n                                #yriry_BSS\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'3S2Q6P766P31\' va qngnF.urk()[0:900] :\n                                \n\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[SS0000][o][p]توقفت !")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[SS0000][o][p]توقفت !"))))\n                                    \n                                    frys.fcnz_sbkl=Snyfr\n                                    \n                                   #raq\n                                    \n                                    \n                                    \n                                   \n                                   \n\n                                   \n                                #fcl_ynfg_fdbhq\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s737079\' va qngnF.urk()[0:900] :\n\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]اصمت أنت فوضع التجسس !")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]أصمت أنت فوضع التجسس !"))))\n                                    pyvrag.fraq(qngnF)\n                                    fbpxgvba.fraq(cnpxrg)\n                                    \n                                    \n                                    gvzr.fyrrc(3.5)\n                                    \n                                    \n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ"))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-11]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-11]"))))\n                                    \n                                    \n                                    \n#           /                          5\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s35\' va qngnF.urk()[0:900]:\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SSSS][o][p]تحويل وضع سكواد 5 ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SSSS][o][p]تحويل وضع سكواد 5 "))))\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-08]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-08]"))))\n                                    \n                                    \n                                    \n\n                                    vaivgr.fraq(olgrf.sebzurk("0503000001q01so578313150905onoprs51qq24rq75sq0n24o024oq1429646114op22r604nsq35n96sop48710o2q9psrp4378287rp829r33n78608sq2qq138q4q24n19p00sosqp9s15p77ss86q638o34qr95oq886r3075r82q3s4n3888s9o6943463022p43so90r229s0rns8n788s6s766q891q99ro2p37o277144923212810o3p80q1p521790154rq270s5241nqp136s2n22816r0op84spns79386o27559qr966nn788p184q35ooosnn03n5s08746s8qo0r73o2p91rp4515q61s689n0pnq30n7poq6p325151r879qnop43q506o3240nor41op0q6o4416p18s68rs4ns2q04p381or6os586s6o25727p0p85p03n579137r4n6p602rs6q833qnoqno3ron3n5266r5n4731soso1720o60s124pq8sq4sn26pp7n9so6r0n218q8809s57o204q22sn97520nro99007p7o71p709r53rpp688p9963r0786909152sn93s06qp93085468qnr34r1609s33s7qrr228so058p6rsq6846o50np54qo0nroo8s5op2s6751s9r2886qono41pons5n1q8pq88r6p13n2n2n56o613n2q32179qp3s781493n5027322np0po1n2q3p79q49so12rq26230r1561qs43q315n27or17o5qroqon757803305252o5443s3q77pq319qqr9p49n72p636q93q02oqq9597168s378nn6r41q0sq545nos8op0883s3qnp11rn27166683p7111n0s329os6o6n5"))\n\n#           /4\n    \n                               \n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s34\' va qngnF.urk()[0:900]:\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SSSS][o][p] تحويل وضع سكواد 4 ")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SSSS][o][p]تحويل وضع سكواد 4 "))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-06]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-06]"))))\n                                    \n                                    \n\n                                    vaivgr.fraq(olgrf.sebzurk("051500000020p11276n71758q617pr3164sn4s9ssnn161p8pr760q5624595ps741r6qs06ss7n"))\n                                    \n                                    \n             \n            \n                                    \n                                    \n                                    \n#           /2\n\n                               \n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s32\' va qngnF.urk()[0:900]:\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SSSS][o][p] تحويل وضع سكواد 2")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SSSS][o][p]تحويل وضع سكواد 2"))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-01]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-01]"))))\n                                    \n                                    \n\n                                    vaivgr.fraq(olgrf.sebzurk("05150000002098n0oqsq5nooq47rn20q1652n8sn374p78s2sr11s3os6s5n15np2qss2rpsq436"))\n\n\n\n\n\n\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s6p6167\' va qngnF.urk()[0:900] naq fcnzvat:\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SSSS][o][p]تكرار رسالتك : <--")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SSSS][o][p]تكرار رسالتك : <--"))))\n\n                                    \n                                    \n                                    \n                                    erpbeqzbqr = Gehr\n     \n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2s2q6p6167\' va qngnF.urk()[0:900]:\n                                    erpbeqzbqr=Snyfr\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[SS0000][o][p]توقفت !")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[SS0000][o][p]توقفت !"))))\n                                    \n                                    #onpx_bar_gvzr\n                                vs \'1200\' va qngnF.urk()[0:4]:\n                                    vs o"/onpx" va qngnF:\n                                        onpx=Gehr\n                                        guernqvat.Guernq(gnetrg=frys.sbkl , netf=(frys.qngn_wbva,)).fgneg()\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]تم إسترجاعك ")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]تم إسترجاعك "))))\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-05]")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-05]"))))\n                                    \n                                    \n                                    \n\n\n                                    fgnghrf= Snyfr\n                                    \n\n                                    \n                                    \n                                 #onpx_fcnz\n                                 \n                                vs \'1200\' va qngnF.urk()[0:4]:\n                                    vs o"/pn" va qngnF:\n                                        pn=Gehr\n                                        guernqvat.Guernq(gnetrg=frys.jnyvq , netf=(frys.qngn_wbva,)).fgneg()\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]اللعب الإجباري ")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]اللعب الإجباري "))))\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ"))))\n\n                                    fgnghrf= Snyfr\n                                    \n\n                                   \n                                    \n                                    #snyfr\n                                vs \'1200\' va qngnF.urk()[0:4]:\n                                    vs o"/-pn" va qngnF:\n                                        pn=Snyfr\n\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]توقفت !")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]توقفت !"))))\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]Gur Sbkl Bssvpvny [SSP800][o][p]Ⓥ"))))\n\n                                    fgnghrf= Snyfr\n                                    \n\n                                 #grfg\n                                vs \'1200\' va qngnF.urk()[0:4]:\n                                    vs o"/pn" va qngnF:\n                                        gvzr.fyrrc(30.0)\n                                        pn=Snyfr\n\n                                        pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SS00][o][p]توقفت تلقائيا ! !")))\n                                        pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SS00][o][p]توقفت تلقائيا !!"))))\n                                 \n                                 #hvq\n\n\n                                vs "1200" va qngnF.urk()[0:4]:\n                        \n                                    vs o"3fol" va qngnF:\n                                        cevag(qngnF.urk())\n                                        gel:\n                                            hfre_vq= (olgrf.sebzurk(er.svaqnyy(e\'33736279(.*?)28\' , qngnF.urk()[50:])[0])).qrpbqr("hgs-8")\n                                            cevag(hfre_vq)\n                                            guernqvat.Guernq(gnetrg=trgvasbolvq , netf=(qngnF.urk() , hfre_vq , pyvrag)).fgneg()  \n                                        rkprcg:\n                                            cnff\n\n                                vs  \'0500\' va qngnF.urk()[0:4] naq uvqr == Gehr  :\n                                    fbpxgvba =pyvrag\n\n\n                                    vs yra(qngnF.urk())<=30:\n\n                                        uvqr =Gehr\n                                    vs yra(qngnF.urk())>=31:\n                                        cnpxrg = qngnF\n\n                                        uvqr = Snyfr\n\n                                 #جلب\n                                vs \'0500\' va qngnF.urk()[0:4] naq yra(qngnF.urk())>= 1000:\n                                    uvqe = qngnF\n                                    pyvrr = pyvrag\n                                    cevag("Pngpu Cnpxrg Fhprff !")\n                                    cevag("cnxrg--->",qngnF.urk())\n                                vs \'1200\' va qngnF.urk()[0:4] naq \'2S77616P6964\' va qngnF.urk() :\n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[00SSSS][o][p] تم سترجاعه للمجموعة !")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[00SSSS][o][p]تم سترجاعه للمجموعة ! "))))\n                                    \n                                    pyvrag.fraq(olgrf.sebzurk(tra_zfti2(qngnF.urk() ,"[1200000002-11]")))\n                                    pyvrag.fraq(olgrf.sebzurk(fge(tra_zfti2_pyna(qngnF.urk() ,"[1200000002-11]"))))\n                                    \n                                    pyvrr.fraq(uvqe)\n                                    cevag("QBAR ! ")\n\n\n\n\n                                vs pyvrag.fraq(qngnF) <= 0:\n                                    oernx\n                                    \n                                    \n        \n\n                                \n        \n        \n        \n    qrs sbkl( frys , qngn_wbva):\n        tybony onpx\n        cevag(qngn_wbva)\n        \n        juvyr onpx==Gehr:\n            gel:\n                frys.bc.fraq(qngn_wbva)\n                gvzr.fyrrc(9999.0)\n               \n                #                           0515000000104903408o9r91774r75o990038qqqrr49\n            rkprcg Rkprcgvba nf r:\n                \n                cnff\n                \n    \n                \n               \n    qrs jnyvq( frys , qngn_wbva):\n        tybony pn\n        cevag(qngn_wbva)\n        \n        juvyr pn==Gehr:\n            gel:\n                frys.bc.fraq(qngn_wbva)\n                gvzr.fyrrc(1.0)\n                frys.bc.fraq(frys.qngn_onpx)\n                #                           0515000000104903408o9r91774r75o990038qqqrr49\n            rkprcg Rkprcgvba nf r:\n                \n                cnff\n                \n                #yriry HC\n    qrs yriry_hc(frys ):\n    \n        gvzr.fyrrc(3)\n        cevag("fgneg")\n        frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n        frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n        frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n           \n        juvyr frys.fcnz_yriry==Gehr :\n            \n            \n            \n            frys.bc.fraq(frys.fgneg_tnzr)\n            \n\n            frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            \n            \n            gvzr.fyrrc(3)\n            \n            #qrivpr_ybj\n            \n    qrs sbkl_hc(frys ):\n    \n        gvzr.fyrrc(10)\n        cevag("fgneg")\n        frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n        frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n        frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            \n        juvyr frys.fcnz_sbkl==Gehr :\n            \n            \n            \n            frys.bc.fraq(frys.fgneg_jnyvq)\n            \n\n            frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            frys.bc.fraq(olgrf.sebzurk("031500000010091ro74rrs39o7574r359602o0670pn8"))\n            \n            \n            gvzr.fyrrc(10)\n\n\n\n\nqrs fgneg_obg():\n    gel :\n        Cebkl().ehaf(\'127.0.0.1\',3000)\n    rkprcg Rkprcgvba nf r:\n        frn=2\n\nfgneg_obg()\n''',__))('rot_13',__import__('codecs').decode))
+#Cmd 
+# ?lvl
+# /des
+# /lag
+# /back
+# /2-4-5
+# /ca
+# /spy
+# 3sby+id
+# fox
+
+
+
+invite  = None
+invite2  = None
+s = False
+gameplayed= 0
+x =1
+listt =[]
+serversocket =None
+C =None
+istarted = False
+start =None
+stop =b'\x03\x15\x00\x00\x00\x10\t\x1e\xb7N\xef9\xb7WN5\x96\x02\xb0g\x0c\xa8'
+runscript = 0
+import re 
+isconn = False
+
+increase =False
+
+back=False
+ca=False
+socktion =None
+
+def str2hex(s:str):
+    return ''.join([hex(ord(c))[2:].zfill(2) for c in s])
+
+def get_info(user_id):
+	global ff_player_region,requests,json
+	import requests,json
+
+	id = user_id
+	cookies = {
+    '_ga': 'GA1.1.2123120599.1674510784',
+    '_fbp': 'fb.1.1674510785537.363500115',
+    '_ga_7JZFJ14B0B': 'GS1.1.1674510784.1.1.1674510789.0.0.0',
+    'source': 'mb',
+    'region': 'MA',
+    'language': 'ar',
+    '_ga_TVZ1LG7BEB': 'GS1.1.1674930050.3.1.1674930171.0.0.0',
+    'datadome': '6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0',
+    'session_key': 'efwfzwesi9ui8drux4pmqix4cosane0y',
+}
+
+	headers = {
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Connection': 'keep-alive',
+    # 'Cookie': '_ga=GA1.1.2123120599.1674510784; _fbp=fb.1.1674510785537.363500115; _ga_7JZFJ14B0B=GS1.1.1674510784.1.1.1674510789.0.0.0; source=mb; region=MA; language=ar; _ga_TVZ1LG7BEB=GS1.1.1674930050.3.1.1674930171.0.0.0; datadome=6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0; session_key=efwfzwesi9ui8drux4pmqix4cosane0y',
+    'Origin': 'https://shop2game.com',
+    'Referer': 'https://shop2game.com/app/100067/idlogin',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',
+    'accept': 'application/json',
+    'content-type': 'application/json',
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'x-datadome-clientid': '6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0',
+}
+
+	json_data = {
+    'app_id': 100067,
+    'login_id': f'{id}',
+    'app_server_id': 0,
+}
+
+	res = requests.post('https://shop2game.com/api/auth/player_id_login', cookies=cookies, headers=headers, json=json_data)
+	response = json.loads(res.text)
+	try :
+		name=response['nickname']
+		region = response["region"]
+		name = [name,region]
+		ff_player_region =name[1]
+	except:
+		pass
+	return name[0]
+def convert_to_bytes(input_string):
+    # replace non-hexadecimal character with empty string
+    cleaned_string = input_string[:231] + input_string[232:]
+    # convert cleaned string to bytes
+    output_bytes = bytes.fromhex(cleaned_string)
+    return output_bytes
+def gen_packet(data : str):
+    PacketLenght = data[7:10]
+    PacketHedar1= data[10:32]
+    PayLoad= data[32:34]
+    NameLenghtAndName=re.findall('1b12(.*)1a02' , data)[0]
+    Name = NameLenghtAndName[2:]
+    NameLenght = NameLenghtAndName[:2]
+
+    NewName="5b46463030305d4d6f64652042792040594b5a205445414d"
+    NewNameLenght = len(NewName)//2
+
+    NewPyloadLenght=int(int('0x'+PayLoad , 16) - int("0x"+NameLenght , 16))+int(NewNameLenght)
+    NewPacketLenght = (int('0x'+PacketLenght , 16)-int('0x'+PayLoad , 16)) + NewPyloadLenght
+
+    packet = data.replace(Name , str((NewName)))
+    packet = packet.replace(str('1b12'+NameLenght) , '1b12'+str(hex(NewNameLenght)[2:]))
+    packet = packet.replace(PayLoad , str(hex(NewPyloadLenght)[2:]))
+    packet = packet.replace(PacketLenght[0] , str(hex(NewPacketLenght)[2:]) )
+    
+    return packet
+def gen_msgv2(packet  , replay):
+    
+    replay  = replay.encode('utf-8')
+    replay = replay.hex()
+    
+
+    hedar = packet[0:8]
+    packetLength = packet[8:10] #
+    paketBody = packet[10:32]
+    pyloadbodyLength = packet[32:34]#
+    pyloadbody2= packet[34:60]
+    
+    pyloadlength = packet[60:62]#
+    pyloadtext  = re.findall(r'{}(.*?)28'.format(pyloadlength) , packet[50:])[0]
+    pyloadTile = packet[int(int(len(pyloadtext))+62):]
+    
+    
+    NewTextLength = (hex((int(f'0x{pyloadlength}', 16) - int(len(pyloadtext)//2) ) + int(len(replay)//2))[2:])
+    if len(NewTextLength) ==1:
+        NewTextLength = "0"+str(NewTextLength)
+        
+    NewpaketLength = hex(((int(f'0x{packetLength}', 16) - int((len(pyloadtext))//2) ) ) + int(len(replay)//2) )[2:]
+    NewPyloadLength = hex(((int(f'0x{pyloadbodyLength}', 16) - int(len(pyloadtext)//2))  )+ int(len(replay)//2) )[2:]
+
+    finallyPacket = hedar + NewpaketLength +paketBody + NewPyloadLength +pyloadbody2+NewTextLength+ replay + pyloadTile
+    
+    return str(finallyPacket)
+
+
+
+def check_information(uid,abbr):
+	player_uid = uid
+
+	servers_name_db = {
+	"bd": "بنغلاديش",
+	"br": "البرازيل",
+	"eu": "اروبا",
+	"hk": "هونج كونج",
+	"id": "أندونوسيا",
+	"in": "الهند",
+	"me": "الشرق الأوسط",
+	"mo": "ماكوي",
+	"my": "ماليسيا",
+	"ph": "فليبينيس",
+	"pk": "باكيستان",
+	"ru": "روسيا",
+	"sa": "أمريكا",
+	"sg": "سنغفورة",
+	"th": "التيلاند",
+	"tw": "الطيوان",
+	"vn": "فيتنام",
+	"ind" : "الهند"
+	}
+	def get_server_name(abbr):
+		short_name = abbr.lower()
+		return servers_name_db[short_name]
+	try:
+		player_server = get_server_name(abbr)
+	except:
+		player_server = abbr
+	def check_if_banned(uid):
+		response_bol = None
+		request_url = f"https://ff.garena.com/api/antihack/check_banned?lang=en&uid={uid}"
+		req_server = requests.get(request_url)
+		req_response = req_server.text
+		req_response = json.loads(req_response)
+		if req_response["status"]=="success":
+			formula = req_response["data"]["is_banned"]
+			if formula==1:
+				response_bol=True
+			elif formula==0:
+				response_bol=False
+		return response_bol
+	def return_result(res_bol):
+		if res_bol:
+		#ban
+			return "[FF0000][b][c]تم تعليقه !"
+		elif res_bol==False:
+		#clear
+			return "[00FF00][b][c]متصل !"
+	msg = return_result(check_if_banned(uid))
+	return (player_server,msg)
+
+def getinfobyid(packet , user_id , client):
+    player_name = get_info(user_id)
+    player_region = ff_player_region
+    received_data = check_information(user_id,player_region)
+    final_info_region = received_data[0]
+    final_ban_msg = received_data[1]
+    #player_name
+    #final_info_region
+    #
+#--------------------------------------------------
+
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]معلومات الاعب ! """)
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]معلومات الاعب !  """)
+    client.send(bytes.fromhex(pyload_3))
+    client.send(bytes.fromhex(pyload_3))
+        
+#id plyaer
+    time.sleep(4.0)
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]أيدي الاعب : [FFA500]""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]أيدي الاعب : [FFA500]""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{user_id}""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{user_id}""")
+    client.send(bytes.fromhex(pyload_3))
+    #splach
+    pyload_3 = gen_msgv2_clan(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
+    client.send(bytes.fromhex(pyload_3))
+        #name
+        
+        
+    time.sleep(2.0)
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]إسم لاعب : [FFA500]""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]إسم لاعب : [FFA500]""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{player_name}""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{player_name}""")
+    client.send(bytes.fromhex(pyload_3))
+        
+        
+        #splach1
+    pyload_3 = gen_msgv2_clan(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
+    client.send(bytes.fromhex(pyload_3))
+        
+        
+        #region
+    time.sleep(2.0)
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]المنطقة : [FFA500]""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]المنطقة : [FFA500]""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{final_info_region}""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{final_info_region}""")
+    client.send(bytes.fromhex(pyload_3))
+        
+        ##
+#splach2
+
+    pyload_3 = gen_msgv2_clan(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
+    client.send(bytes.fromhex(pyload_3))
+        
+        
+        #ban check
+    time.sleep(2.0)
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]حالة الاعب : """)
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]حالة الاعب : """)
+    client.send(bytes.fromhex(pyload_3))
+    client.send(bytes.fromhex(pyload_3))
+        
+        
+        
+        #
+    
+    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{final_ban_msg}""")
+    client.send(bytes.fromhex(pyload_3))
+    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{final_ban_msg}""")
+    client.send(bytes.fromhex(pyload_3))
+    client.send(bytes.fromhex(pyload_3))
+
+
+        
+
+
+
+def gen_msgv2_clan(packet  , replay):
+    
+    replay  = replay.encode('utf-8')
+    replay = replay.hex()
+
+    hedar = packet[0:8]
+    packetLength = packet[8:10] #
+    paketBody = packet[10:32]
+    pyloadbodyLength = packet[32:34]#
+    pyloadbody2= packet[34:64]
+    pyloadlength = packet[64:66]#
+    pyloadtext  = re.findall(r'{}(.*?)28'.format(pyloadlength) , packet[50:])[0]
+    pyloadTile = packet[int(int(len(pyloadtext))+66):]
+    
+
+    NewTextLength = (hex((int(f'0x{pyloadlength}', 16) - int(len(pyloadtext)//2) ) + int(len(replay)//2))[2:])
+    if len(NewTextLength) ==1:
+        NewTextLength = "0"+str(NewTextLength)
+    NewpaketLength = hex(((int(f'0x{packetLength}', 16) - int(len(pyloadtext)//2) ) - int(len(pyloadlength))) + int(len(replay)//2) + int(len(NewTextLength)))[2:]
+    NewPyloadLength = hex(((int(f'0x{pyloadbodyLength}', 16) - int(len(pyloadtext)//2)) -int(len(pyloadlength)) )+ int(len(replay)//2) + int(len(NewTextLength)))[2:]
+    
+    
+    finallyPacket = hedar + NewpaketLength +paketBody + NewPyloadLength +pyloadbody2+NewTextLength+ replay + pyloadTile
+
+    return finallyPacket
+invite= None
+
+
+
+
+spams = False
+
+spampacket= b''
+recordmode= False
+
+sendpackt=False
+global vares
+vares = 0
+spy = False
+inviteD=False
+inviteE=True
+op = None
+global statues
+statues= True
+SOCKS_VERSION = 5
+packet =b''
+spaming =True
+full=False
+import os
+import sys
+
+
+def spam(server,packet):
+    while True:
+
+
+        time.sleep(0.015)
+
+
+        server.send(packet)
+        if   recordmode ==False:
+
+            break
+
+def destroy(remote,dataC):
+    
+    var= 0
+    for i in range(50):
+        
+        var= var+1
+       
+        time.sleep(0.010)
+        for i in range(10):
+            
+            remote.send(dataC)
+    time.sleep(0.5)
+
+
+
+def timesleep():
+    time.sleep(60)
+    #print(istarted)
+    if istarted == True:
+        serversocket.send(start)
+
+
+def enter_game_and_RM():
+    global listt
+    for data in listt:
+        
+        C.send(data)
+        listt.remove(data)
+    time.sleep(15)
+
+    print("start the game ....")
+
+    istarted =False
+    serversocket.send(start)
+
+    t = threading.Thread(target=timesleep, args=())
+    t.start()
+def break_the_matchmaking(server):
+    global is_start
+    global isrun
+
+    server.send(stop)
+
+
+    server.send(stop)
+
+    server.send(stop)
+    print('sending stop')
+    is_start =True
+
+    t = threading.Thread(target=enter_game_and_RM, args=())
+    t.start()
+
+
+import time
+
+import socket
+import threading
+import select
+SOCKS_VERSION= 5
+
+
+class Proxy:
+
+
+
+    def __init__(self):
+        self.username = "username"
+        self.password = "username"
+        self.packet = b''
+        self.sendmode = 'client-0-'
+        self.spam_level=False
+        self.spam_foxy=False
+
+
+    def handle_client(self, connection):
+
+
+
+        version, nmethods = connection.recv(2)
+        methods = self.get_available_methods(nmethods, connection)
+
+
+
+        if 2   in set(methods):
+            if 2 in set(methods):
+
+                connection.sendall(bytes([SOCKS_VERSION, 2]))
+            else:
+                connection.sendall(bytes([SOCKS_VERSION, 0]))
+
+
+
+
+
+        if not self.verify_credentials(connection,methods):
+            return
+        version, cmd, _, address_type = connection.recv(4)
+
+
+
+        if address_type == 1:
+            address = socket.inet_ntoa(connection.recv(4))
+        elif address_type == 3:
+            domain_length = connection.recv(1)[0]
+            address = connection.recv(domain_length)
+            address = socket.gethostbyname(address)
+            name= socket.gethostname()
+
+
+
+        port = int.from_bytes(connection.recv(2), 'big', signed=False)
+        port2 = port
+        try:
+
+
+
+
+
+            remote = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            remote.connect((address, port))
+            #print(" connect to {} \n \n \n ".format(address))
+            bind_address = remote.getsockname()
+
+            addr = int.from_bytes(socket.inet_aton(
+                bind_address[0]), 'big', signed=False)
+            port = bind_address[1]
+
+            reply = b''.join([
+                SOCKS_VERSION.to_bytes(1, 'big'),
+                int(0).to_bytes(1, 'big'),
+                int(0).to_bytes(1, 'big'),
+                int(1).to_bytes(1, 'big'),
+                addr.to_bytes(4, 'big'),
+                port.to_bytes(2, 'big')
+
+            ])
+        except Exception as e:
+
+            reply = self.generate_failed_reply(address_type, 5)
+
+
+        connection.sendall(reply)
+
+
+        self.botdev(connection, remote,port2)
+
+
+    def generate_failed_reply(self, address_type, error_number):
+        return b''.join([
+            SOCKS_VERSION.to_bytes(1, 'big'),
+            error_number.to_bytes(1, 'big'),
+            int(0).to_bytes(1, 'big'),
+            address_type.to_bytes(1, 'big'),
+            int(0).to_bytes(4, 'big'),
+            int(0).to_bytes(4, 'big')
+        ])
+
+    def verify_credentials(self, connection,methods):
+
+        if 2 in methods:
+
+
+            version = ord(connection.recv(1))
+
+
+            username_len = ord(connection.recv(1))
+            username = connection.recv(username_len).decode('utf-8')
+
+            password_len = ord(connection.recv(1))
+            password = connection.recv(password_len).decode('utf-8')
+            #   print(username,password)
+            if username == self.username and password == self.password:
+
+                response = bytes([version, 0])
+                connection.sendall(response)
+
+
+                return True
+
+            response = bytes([version, 0])
+            connection.sendall(response)
+
+            return True
+
+        else:
+
+
+            version =1
+            response = bytes([version, 0])
+            connection.sendall(response)
+
+
+            return True
+
+    def get_available_methods(self, nmethods, connection):
+        methods = []
+        for i in range(nmethods):
+            methods.append(ord(connection.recv(1)))
+        return methods
+
+    def runs(self, host, port):
+        try:
+            var =  0
+
+
+
+
+
+
+
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            #s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            s.bind((host, port))
+            s.listen()
+
+
+
+            while True:
+                var =var+1
+
+
+                conn, addr = s.accept()
+                running = False
+
+                t = threading.Thread(target=self.handle_client, args=(conn,))
+                t.start()
+        except Exception as e:
+            print("Created")
+            
+
+
+
+
+
+
+
+
+
+
+    #connect
+    def botdev(self, client, remote, port):
+        
+            while True:
+                r, w, e = select.select([client, remote], [], [])
+
+                od= b''
+                global start
+                if client in r or remote in r:
+                    global invite
+                    global invite2
+                    global s
+                    global x
+                    global ca
+                    global hidr
+                    global cliee
+                    global serversocket
+                    global isconn ,inviteD ,back
+                    if client in r:
+
+
+
+                        dataC = client.recv(999999)
+
+
+                        if port ==39801 or port ==39699:
+                            isconn=True
+                        if  "39699" in str(remote) :
+                            self.op = remote
+                
+                        if '0515' in dataC.hex()[0:4] and len(dataC.hex()) >= 141  :                  
+                            self.data_join=dataC
+
+                            
+                        
+                        if '0515' in dataC.hex()[0:4] and len(dataC.hex()) <50  :  
+                            print(remote)                
+                            self.data_back=dataC
+
+                        if  port ==39699:
+                            #print(" catch a socket sir ")
+                            #  print(f"{dataC}\n")
+                            invite= remote
+                        global hide
+                        hide =False
+                        global recordmode
+                        #laaaaaag
+                        if '1215' in dataC.hex()[0:4] and recordmode ==True:
+
+                            global spampacket
+                            spampacket =dataC
+
+                            #recordmode=False
+                            global statues
+                            statues= True
+                            time.sleep(5)
+
+                            b = threading.Thread(target=spam, args=(remote,spampacket))
+                            b.start()
+
+
+                                    #invite_D
+                        if '0515' in dataC.hex()[0:4] and len(dataC.hex()) >=900 and inviteD==True and hide ==False :
+                            var = 0
+                            m = threading.Thread(target=destroy, args=(remote,dataC))
+                            m.start()
+                            global spams
+                            spams =True
+
+                        if '0515' in dataC.hex()[0:4] and len(dataC.hex()) >= 141:
+
+                            hide = True
+
+
+                            global benfit
+                            benfit = False
+
+
+                                    #lvl_UP
+                        if '0315' in dataC.hex()[0:4]:
+                            if len(dataC.hex()) >=300:
+                                start = dataC
+                                print(dataC)
+                            is_start =False
+
+                            serversocket =remote
+                            print("socket is defined suucesfuly !..")
+                            t = threading.Thread(target=timesleep, args=())
+                            t.start()
+                            #level_PRO++
+                        if "0315" in dataC.hex()[0:4] and len(dataC.hex())>820 and self.spam_level==True:
+                            self.start_game=dataC
+                            print("packet >>"+dataC.hex())
+                            threading.Thread(target=self.level_up ).start()
+                            #level_low
+                        if "0315" in dataC.hex()[0:4] and len(dataC.hex())>820 and self.spam_foxy==True:
+                            self.start_walid=dataC
+                            print("packet >>"+dataC.hex())
+                            threading.Thread(target=self.foxy_up ).start()
+
+
+
+         
+
+
+
+
+
+#mizaaaaat
+
+
+                        if remote.send(dataC) <= 0:
+                            break
+                    if remote in r:
+
+                        global opb
+                        global listt
+                        global C
+                        global istarted
+                        global gameplayed
+                        global packet
+                        global socktion
+                        global ca
+                        global increase ,back
+                        dataS = remote.recv(999999)
+                        
+                        
+                        if '1809' in dataS.hex()[26:30] or "1802" in dataS.hex()[26:30] or "1808" in dataS.hex()[26:30]:
+                          #  ca=False
+                            print(dataC.hex()[0:4])
+                            print('  the team ')
+                            #hackg.send(hackw
+                        
+
+                        if '0300' in dataS.hex()[0:4] :
+                            #print('yes')
+                            C = client
+                            print(dataS)
+                            socketsender =client
+
+                            if b'Ranked Mode' in dataS:
+                                #print("w")
+                                client.send(dataS)
+                            else:
+
+
+
+                                if b'catbarq' in dataS:
+                                    vdsf=3
+                                else:
+                                    #
+                                    hackw= dataS
+                                    hackg= client
+
+                                    if len(dataS.hex()) <= 100:
+                                        e=2
+                                    #  print("anti detect !")
+
+
+                                    else:
+                                        if increase ==True:
+
+                                            print("Enter game packet founded")
+                                            #      start = dataC
+                                            #      print(dataC)
+                                            gameplayed =gameplayed+1
+                                            istarted = True
+                                            #      print(f"{dataS} \n")
+                                            listt.append(dataS)
+                                            #rint(listt)
+                                            t = threading.Thread(target=break_the_matchmaking, args=(serversocket,))
+                                            t.start()
+                                        else:
+                                            client.send(dataS)
+
+                        else:
+                            #  if '0000' !in dataS.hex()[:4] and '1200' !in dataS.hex()[:4] and '1700' !in dataS.hex()[:4]:
+                            #  print(dataS.hex(),"\n")
+                            if '0500' in dataS.hex()[:4] and b'\x05\x15\x00\x00\x00\x10Z\xca\xf5&T;\x0cA\x01\x16\xe0\x05\xb2\xea\xe4\x0b' in dataC:
+                                f=2
+                                #serversocket.send(b'\x05\x15\x00\x00\x00\x10\x9b@x\xd7\x15\x9e\x0f\xfaZ+\x88\xe5\xac\x18\x9fw')
+
+                            else:
+                                #spam_invite
+                                if '1200' in dataS.hex()[0:4] and '2f646573' in dataS.hex()[0:900] : 
+                                    inviteD =True
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تدمير سكواد <<-- [00ff00][b][c] م")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تدمير سكواد <<-- [00ff00][b][c] مفعل"))))
+
+                                    time.sleep(3.5)
+                                    
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-12]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-12]"))))
+                                    
+                                    
+
+                                    
+                                    
+                                    
+                                    #Follow_Us
+                                if '1200' in dataS.hex()[0:4] and '666f7879' in dataS.hex()[0:900] :
+                                    
+                                    
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]Instagram : [FFC800][b][c]@the_foxy999"))))
+                                    #Youtube
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]Youtube : [FFC800][b][c] The Foxy Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]Youtube : [FFC800][b][c]The Foxy Ⓥ"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-03]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-03]"))))
+                                    
+                                    
+                                    #Follow_Us2
+                                if '1200' in dataS.hex()[0:4] and '466f7879' in dataS.hex()[0:900] :
+                                    
+                                    
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]Instagram : [FFC800][b][c]@the_foxy999"))))
+                                    #Youtube
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]Youtube : [FFC800][b][c] The Foxy Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]Youtube : [FFC800][b][c]The Foxy Ⓥ"))))
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-03]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-03]"))))
+                                    
+                                    
+                                    #invite_spam OFF
+                                if '1200' in dataS.hex()[0:4] and '2f2d646573' in dataS.hex()[0:900] :
+                                    inviteD =False
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت ! "))))                       
+                                    
+                                    
+                                        #level_ON       PRO++
+                                                                     
+                                if '1200' in dataS.hex()[0:4] and '3f6c766c' in dataS.hex()[0:900] :
+                                    
+
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعل !!")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعل  !! "))))
+                                    
+                                    time.sleep(2.0)
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد"))))
+                                    
+                                    time.sleep(3.5)
+                                    
+                                    self.spam_level=True
+                                    
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-07]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-07]"))))
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                #level_OFF
+                                if '1200' in dataS.hex()[0:4] and '3f2d6c766c' in dataS.hex()[0:900] :
+                                
+
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
+                                    
+                                    self.spam_level=False
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        #level_ON       Low
+                                                                     
+                                if '1200' in dataS.hex()[0:4] and '3F6C766C31' in dataS.hex()[0:900] :
+                                    
+
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعلة للأجهزة البطيئة !!")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]زيادة لفل مغعلة للأجهزة البطيئة  !! "))))
+                                    
+                                    time.sleep(2.0)
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد"))))
+                                    
+                                    time.sleep(3.5)
+                                    
+                                    self.spam_foxy=True
+                                    
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-07]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-07]"))))
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                #level_OFF
+                                if '1200' in dataS.hex()[0:4] and '3F2D6C766C31' in dataS.hex()[0:900] :
+                                
+
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
+                                    
+                                    self.spam_foxy=False
+                                    
+                                   #end
+                                    
+                                    
+                                    
+                                   
+                                   
+
+                                   
+                                #spy_last_sqoud
+                                if '1200' in dataS.hex()[0:4] and '2f737079' in dataS.hex()[0:900] :
+
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اصمت أنت فوضع التجسس !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]أصمت أنت فوضع التجسس !"))))
+                                    client.send(dataS)
+                                    socktion.send(packet)
+                                    
+                                    
+                                    time.sleep(3.5)
+                                    
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-11]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-11]"))))
+                                    
+                                    
+                                    
+#           /                          5
+                                if '1200' in dataS.hex()[0:4] and '2f35' in dataS.hex()[0:900]:
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تحويل وضع سكواد 5 ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحويل وضع سكواد 5 "))))
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-08]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-08]"))))
+                                    
+                                    
+                                    
+
+                                    invite.send(bytes.fromhex("0503000001d01fb578313150905babcef51dd24ed75fd0a24b024bd1429646114bc22e604afd35a96fbc48710b2d9cfec4378287ec829e33a78608fd2dd138d4d24a19c00fbfdc9f15c77ff86d638b34de95bd886e3075e82d3f4a3888f9b6943463022c43fb90e229f0eaf8a788f6f766d891d99eb2c37b277144923212810b3c80d1c521790154ed270f5241adc136f2a22816e0bc84fcaf79386b27559de966aa788c184d35bbbfaa03a5f08746f8db0e73b2c91ec4515d61f689a0cad30a7cbd6c325151e879dabc43d506b3240abe41bc0d6b4416c18f68ef4af2d04c381be6bf586f6b25727c0c85c03a579137e4a6c602ef6d833dabdab3eba3a5266e5a4731fbfb1720b60f124cd8fd4fa26cc7a9fb6e0a218d8809f57b204d22fa97520aeb99007c7b71c709e53ecc688c9963e0786909152fa93f06dc93085468dae34e1609f33f7dee228fb058c6efd6846b50ac54db0aebb8f5bc2f6751f9e2886dbab41cbaf5a1d8cd88e6c13a2a2a56b613a2d32179dc3f781493a5027322ac0cb1a2d3c79d49fb12ed26230e1561df43d315a27be17b5debdba757803305252b5443f3d77cd319dde9c49a72c636d93d02bdd9597168f378aa6e41d0fd545abf8bc0883f3dac11ea27166683c7111a0f329bf6b6a5"))
+
+#           /4
+    
+                               
+                                if '1200' in dataS.hex()[0:4] and '2f34' in dataS.hex()[0:900]:
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c] تحويل وضع سكواد 4 ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحويل وضع سكواد 4 "))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-06]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-06]"))))
+                                    
+                                    
+
+                                    invite.send(bytes.fromhex("051500000020c11276a71758d617ce3164fa4f9ffaa161c8ce760d5624595cf741e6df06ff7a"))
+                                    
+                                    
+             
+            
+                                    
+                                    
+                                    
+#           /2
+
+                               
+                                if '1200' in dataS.hex()[0:4] and '2f32' in dataS.hex()[0:900]:
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c] تحويل وضع سكواد 2")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحويل وضع سكواد 2"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-01]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-01]"))))
+                                    
+                                    
+
+                                    invite.send(bytes.fromhex("05150000002098a0bdfd5abbd47ea20d1652a8fa374c78f2fe11f3bf6f5a15ac2dff2ecfd436"))
+
+
+
+
+
+
+                                if '1200' in dataS.hex()[0:4] and '2f6c6167' in dataS.hex()[0:900] and spaming:
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : <--")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : <--"))))
+
+                                    
+                                    
+                                    
+                                    recordmode = True
+     
+                                if '1200' in dataS.hex()[0:4] and '2f2d6c6167' in dataS.hex()[0:900]:
+                                    recordmode=False
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
+                                    
+                                    #back_one_time
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"/back" in dataS:
+                                        back=True
+                                        threading.Thread(target=self.foxy , args=(self.data_join,)).start()
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]تم إسترجاعك ")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]تم إسترجاعك "))))
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-05]")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-05]"))))
+                                    
+                                    
+                                    
+
+
+                                    statues= False
+                                    
+
+                                    
+                                    
+                                 #back_spam
+                                 
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"/ca" in dataS:
+                                        ca=True
+                                        threading.Thread(target=self.walid , args=(self.data_join,)).start()
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري ")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري "))))
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+
+                                    statues= False
+                                    
+
+                                   
+                                    
+                                    #false
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"/-ca" in dataS:
+                                        ca=False
+
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت !")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت !"))))
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+
+                                    statues= False
+                                    
+
+                                 #test
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"/ca" in dataS:
+                                        time.sleep(30.0)
+                                        ca=False
+
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا ! !")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا !!"))))
+                                 
+                                 #uid
+
+
+                                if "1200" in dataS.hex()[0:4]:
+                        
+                                    if b"3sby" in dataS:
+                                        print(dataS.hex())
+                                        try:
+                                            user_id= (bytes.fromhex(re.findall(r'33736279(.*?)28' , dataS.hex()[50:])[0])).decode("utf-8")
+                                            print(user_id)
+                                            threading.Thread(target=getinfobyid , args=(dataS.hex() , user_id , client)).start()  
+                                        except:
+                                            pass
+
+                                if  '0500' in dataS.hex()[0:4] and hide == True  :
+                                    socktion =client
+
+
+                                    if len(dataS.hex())<=30:
+
+                                        hide =True
+                                    if len(dataS.hex())>=31:
+                                        packet = dataS
+
+                                        hide = False
+
+                                 #جلب
+                                if '0500' in dataS.hex()[0:4] and len(dataS.hex())>= 1000:
+                                    hidr = dataS
+                                    cliee = client
+                                    print("Catch Packet Sucess !")
+                                    print("paket--->",dataS.hex())
+                                if '1200' in dataS.hex()[0:4] and '2F77616C6964' in dataS.hex() :
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c] تم سترجاعه للمجموعة !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تم سترجاعه للمجموعة ! "))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-11]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-11]"))))
+                                    
+                                    cliee.send(hidr)
+                                    print("DONE ! ")
+
+
+
+
+                                if client.send(dataS) <= 0:
+                                    break
+                                    
+                                    
+        
+
+                                
+        
+        
+        
+    def foxy( self , data_join):
+        global back
+        print(data_join)
+        
+        while back==True:
+            try:
+                self.op.send(data_join)
+                time.sleep(9999.0)
+               
+                #                           0515000000104903408b9e91774e75b990038dddee49
+            except Exception as e:
+                
+                pass
+                
+    
+                
+               
+    def walid( self , data_join):
+        global ca
+        print(data_join)
+        
+        while ca==True:
+            try:
+                self.op.send(data_join)
+                time.sleep(1.0)
+                self.op.send(self.data_back)
+                #                           0515000000104903408b9e91774e75b990038dddee49
+            except Exception as e:
+                
+                pass
+                
+                #level UP
+    def level_up(self ):
+    
+        time.sleep(3)
+        print("start")
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+           
+        while self.spam_level==True :
+            
+            
+            
+            self.op.send(self.start_game)
+            
+
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            
+            
+            time.sleep(3)
+            
+            #device_low
+            
+    def foxy_up(self ):
+    
+        time.sleep(10)
+        print("start")
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            
+        while self.spam_foxy==True :
+            
+            
+            
+            self.op.send(self.start_walid)
+            
+
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            
+            
+            time.sleep(10)
+
+
+
+
+def start_bot():
+    try :
+        Proxy().runs('127.0.0.1',3000)
+    except Exception as e:
+        sea=2
+
+start_bot()
