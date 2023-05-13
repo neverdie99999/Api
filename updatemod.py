@@ -975,8 +975,7 @@ class Proxy:
 
 def start_bot():
     try :
-        Proxy().runs('192.168.1.37',7777)
+        Proxy().runs('127.0.0.1',3000)
     except Exception as e:
         sea=2
 
-start_bot()
