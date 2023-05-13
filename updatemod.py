@@ -9,20 +9,25 @@
 # 3sby+id
 
 __list_ = [
- b'\x12\x15\x00\x00\x00pD\xad>\xa9<l\x9e\xd0E\xa9\x955S.\xd4ni`\x87Qj$\xf3P)\xb6\xd0\x97PS\xed/\xd0"\xddU\x87\x81\x0c>\xef\x93]A\xbe\xcf\x88r\x16Z\x03d\xb8\xc1\x83\xb4\xa0UQOe\xb5\xc3\xc0b\xa3\xcbR[\xab\xe4\xd2\xc5X\xd3\x93~\x1fN>)\xc2\xbc\xbb\x19\xa3pH\x01\xbcE\xc0\x1a[\x85\xd0\xfaOLu\xf8\xb9z4\xfca\x1e\x00\xb9[[\x1b'
+    b'\x12\x15\x00\x00\x00pD\xad>\xa9<l\x9e\xd0E\xa9\x955S.\xd4ni`\x87Qj$\xf3P)\xb6\xd0\x97PS\xed/\xd0"\xddU\x87\x81\x0c>\xef\x93]A\xbe\xcf\x88r\x16Z\x03d\xb8\xc1\x83\xb4\xa0UQOe\xb5\xc3\xc0b\xa3\xcbR[\xab\xe4\xd2\xc5X\xd3\x93~\x1fN>)\xc2\xbc\xbb\x19\xa3pH\x01\xbcE\xc0\x1a[\x85\xd0\xfaOLu\xf8\xb9z4\xfca\x1e\x00\xb9[[\x1b'
     ,
- b"\x12\x15\x00\x00\x00\xb0'\xef\xff\x94\x0e\x04j{[J7\xff\xa5|\xb0\xa5\x8fh<4\xfd\xceQ\xaa\x1cI\x109N\x96\xfe\xaf\xe7f[h9\xcd/\x0by\xe8\xb0\xc3\xdbq\x84#UR\x00\xb4\xc0\xa34\xee\xce\t\xcc0\x1d$d\xd8C\xb9\xcf\r(\x9e\xa1\xec\xf3$\xf2R\xdb\xd5\x80#\xa8Q\x03W\xc3h\xa0~S\x15\x9a\x14)\xd4\xd2C\x08p\xd7\xd1^&\x93\xd1\xfa\xe1\x07#\x1aN\xc3v\xd8F\x9f\xa8c\x7f H\x82\xef\xbb\xc35\x8cCb\xba\xe1\xa1XZ\xadX_\x9e\x81Z\x05\xe9\xb8%\xd4|\xec(\t\xbf\x94\xbc!\xaa\x1c4/\xd6h\t\xb9\xe8)\x93\xfa\x0bd\x1f\x15\x9a\x81\x81(5\t\xa6\xdc"
-    
+    b'\x12\x15\x00\x00\x00`Ck\xe9\xdbE\xe2C\x03\x96\x04u\x13d\xff\xc2\'\x81\xbf\x1e\x9d(\x1f.\xf7_\xac[ar\x98\xe82e\xe2\x1d\x8e\xf7\xd1\x8a26\xd8\x9a@\xadWP\xa0\xc7\x8c]_\xebIg\xbb/\x7f/"\x16S\x0f:\x80\x10\xe2Ju>J\xa9\xf6\xc9\xe3\xe5\xdc\x05\xc2\xe1\xb0R\xc7O\x8e\x8a\x17\x9c9_fz_@\xae\n'
     ,
-b'\x12\x15\x00\x00\x00\x90c\xa4\xb0\xb7\x1aB\x84[\x12\xe3P\xfe\x01\xe3y\xfd\xa9\x18WtPs\xa6\xca\xfc\xcdW(}\x1a\x99\xb8\xa5\xdb\x89\x08b\xec\x82\x80<\xf9\xa8\x96\xe1\x0c\x82\xcb\xac\xd7\x03f\xbcI\x08\xe1\x8f]\x82f>\xdbm\xbbi@\x01\xca\x83?h\x10il\xc89\xdeP\xaa\xa8;\xdf\x93q\xebY^ic\x17\xcf\xe4\t\xe0;d!TJ\xa9\xc7D\xa4\xb5\x82\x05\xa0o\r\xf4x\xd3k\xda\xf4\x9f\xd2\xec!\x87r2J\x9d\xe9c\x1azi\x80\xb2\t5I\x88Q\x85\xd6H\xed#M\x9fx'
+    b'\x12\x15\x00\x00\x00p\xe9|M\xa1B\x84\x8a\xe6\x0c\xaf\xb6\xc1\x8e\x0e\x16\xb8\x1a\xd2\xe1\xe5\x88\x10\x0f\xb4\x0c0\x88\xdf\xe5[\xe3\xb0\xf2>\xf3\xb1]d\x95\x05\x950\x03\xf1$W\xa7\xfd\x96\xdb8\xe6\xa6w\x0e \xbb95\xa1\xdaG\xacn\xd6\x8f$\x98E\xd9\x05\xd5\xe6`\xe7\xcaT\x1atarE\x89\xcd\n\xfaJ5\xa4\xd7\x9c\xb7\xec\x16\x96\x8d\xa5\xc6\x18\xdd\xc7\xb3y9\x16u|T\x8d\xcfm\x82'
     ,
-b'\x12\x15\x00\x00\x00\xc0\x00\xa4E.&\xf8\xa9\xb3\x13\xd5T3\xc2 n\x98\x9a\x88_i\x9b\xbe\xd3\xb7\x97:7\xb9\xeb"\xed\xfa\x9c#;Wu?\x1e;(\x1f\x855\xc8V\xd4\xefp\x02\xa1^o\x82\x98\xa3\xc3\x18A\xf4|Ql\x01\xcfn\xeb8W\x7f\xfd\x075\x03\x89cc\x99]\xddB\xa4fZ\x1bF\xda\xe6\x1a\xa5t\xdc\x1ca\x10\xa7\x17\xab^\xbc\x1fa_bS\xf0\xfa7\xb52\xc3\xad^\xb9\x13Z\x0eRihZ^\xe8\x97\x19\xccT-\x1ez\xb4`|\x7f+=M\xe8\x15e\x14\x90Y\x81KX\x99\x8c\xbf\xb5\x08\xb4\xbe\x88\xcc\xa6\x95O\xcbP\xaf\xb3\xc2\x88E\xf9$\xf1\xd7Y\xc4\xbc\xa9<\x11\x19\x8c\xbe\x00\xb6BW\xed\x07\x0e\x85\x16\x86\xfb\xe1\xd3C'
+    b'\x12\x15\x00\x00\x00p\xc4\xfbe5K:\x91\xcc\x91b\x05\xf4N3\xdc|s}f\x01O3\xc8\xb8\xd8\xa7\xc5rjh\x1c\xa4\xaa\xd7\xa5\xed\xf64\xca\xe1Z\xbfQ\xa9\xdf\xb2O\x88j\xa8jA\x05\x87a$\xbe\xfe\x1as\xa6ZX\x13J"\xb5\x19eF\x1a\xe5\xb4\xe9\xc1\x16c\x0f\x879"\x15\xcay%\xaa\xa7\xf4>\x9dr\x07:\x069\xb1\x03\x94\x0b\x84\x90A\xff\xa2+c\x8fy:\xc6\x0c\x1a'
     ,
-b'\x12\x15\x00\x00\x00\x80\x90\x0e\xfc\r\x01\x19\xef\xbaA!+\xe3\x1f\x8a\x03\x1b\xef\xeeG\xad^N\x07\xf5v\xc0\xab.G\xbdrU\x9da\n\xa9\xb2F\x1e\x19I\n\xda\xf7\x9bN`\xe5\x9b\t\xc4\x94B\xf5\xb3?\x0b\x08FY\xbb\x07|\x02\x7fE\xb0\xd8\xdf\xd6\n\xd6,\x0e;-j\x18\xe1\xf1jMozg\xd1O\xaf\x05\xabbK\xd8\xc3B,\xe4\xc2\x18\xea.\xb9\x7f\\\xe6\xf3\x8c.C-\xde\x04}\x12yS\xc1N\x1fr\xf5\x98\xd1\xfc\x9e\x92r\x8b'
+    b'\x12\x15\x00\x00\x00`\xd9\x9fb\xb4\x99V\xcc\xc8\xaa\x0f\x8b\xf2\xe8\xd5\x0e\n\xbbG\x0e\xf5\xd7\x93[t\xc3u\xb3\xc5\xe9\x9a\xa3w\xae\t\xe76\\\x13\x90thQ5\x8a66\x01\x99\xa4*\x1f\n\x1e\x13# \x07\'\x9f;"X\xb0\x87\xb8VT\xd0Vv\xcc\xe8+R^1\xac!\xcc\xecA\xfa\xd5yTwB\x7f\x03S\xf9\x14,i0R'
     ,
-b'\x12\x15\x00\x00\x00\x80\xa4\xdbE\x9c\xa5V)\x04Yxr\xb6\x08\x9a\xee\x0fm7\xdfL\xff\xf77MIP\x03R\x94Sp\xb6\xb7\xcfp\xd7-~\x05\xcb\xc8\xb6\x87\xa5\xaa\xd0\x92uP\xc7\x1dL\x1a\xae\x93\x88\xa3\x03\xa1x\xc8\x7f\xbe\xdeU\xdf\x1e\xcc\x8do\xfd\xdd\\h\xa0Y\xa1]C0\xc1\x89[x;\xe0\x11\xbb\xc9\xceS\xd1g\xc1\xac\xd6\xd9Y\xce}\x9a\n\xb6\xd6\x13\xd5\xac\xe1\xaaW\xb7\x1f\x87sz\xd0\xd7\xb8~p)\x83\x97s\x90\x9f\xd2l'
-
-    
+    b"\x12\x15\x00\x00\x00`\xd9\x9fb\xb4\x99V\xcc\xc8\xaa\x0f\x8b\xf2\xe8\xd5\x0e\n\xbbG\x0e\xf5\xd7\x93[t\xc3u\xb3\xc5\xe9\x9a\xa3w\x9e;z\x8f \x98n\xda\xdd'\xbd\x92\xfcj\x88\x8b\x89\xef?\x16\x90\xf7\xbf`\x95\xc4\xa0\xa8\xc2YD\xf9\x8a\xdf\xe3\x95\xdb\x06J\xa0\x9e\x8d\xc3'op\xc5\xfb[=a\x16bOSM\xdb\xebN\x01\xadu\x11k"
+    ,
+    b'\x12\x15\x00\x00\x00`\xd9\x9fb\xb4\x99V\xcc\xc8\xaa\x0f\x8b\xf2\xe8\xd5\x0e\n\xbbG\x0e\xf5\xd7\x93[t\xc3u\xb3\xc5\xe9\x9a\xa3w^S\xdbf\x87#\x05Su\x81\xa3\xa7\xc6D\xb8q\xe7\xda\xe2T\xb4(H\xc5\x17\x9e\xd7\xce\xfb8U\x835\x85\xf7\x13\xcc\x06\xd2\xf2\xf4Q\xe0\xd8qm\xe7\x11&T\xfe\xd8\xc3<n\xb1_\xea`\x80\xc6\xe2\x1aJ'
+    ,
+    b"\x12\x15\x00\x00\x00`\xd3\x08o\xb1\xb6\x9b\x86\x80\xfe\x1e\xba\x91\x1b3X0Av\xce;\xd5\\\xadr\x00\xfd\xba\xd5iq\x86\t\xf5u\x02#r\xd8\xf2o5:\xe0\xab6\x9azWU\xfb\xd2\xc6\x84\x16\x0f\x19\xb8\xa2\xc8\n\x1f\xd6\x066\x9e\xec&\x12\xe4\xe2\xe3\xc7\xc8\x9ebI5xjX8\x10\x87\xa1\xb7or\x04\x859'\xca]/I\xd9"
+    ,
+    b'\x12\x15\x00\x00\x00p\xee\t\xe9\xd1\x19\x04\x13s\xcf\x1d\r\xe8\xc2_$\xf8P\xce\xef\x06\xd1 j\x9c\x83g\r]\x0b\xd0(X\x9d\xa9yf\xcc\xa7f\x0b\x99)\xd7-\x18\xcb\xa2"\xf0Y\xfa\x04\xa4\x92\xbe0T\x1f8\xa3\xfe\x9e\xa0U?\xe7\x96\x18[\x96\xf6\x91W_5\xbfY\xb3CN\xd4\xa8P\x98t\xb9\x80\\\xf0\xa0|\xf8\xd7aQ\xba\x823[\x00\x10\xb9L\x01<\xbc\xee\xfb.^\xa8>'
+    ,
+    b"\x12\x15\x00\x00\x00\xb0'\xef\xff\x94\x0e\x04j{[J7\xff\xa5|\xb0\xa5\x8fh<4\xfd\xceQ\xaa\x1cI\x109N\x96\xfe\xaf\xe7f[h9\xcd/\x0by\xe8\xb0\xc3\xdbq\x84#UR\x00\xb4\xc0\xa34\xee\xce\t\xcc0\x1d$d\xd8C\xb9\xcf\r(\x9e\xa1\xec\xf3$\xf2R\xdb\xd5\x80#\xa8Q\x03W\xc3h\xa0~S\x15\x9a\x14)\xd4\xd2C\x08p\xd7\xd1^&\x93\xd1\xfa\xe1\x07#\x1aN\xc3v\xd8F\x9f\xa8c\x7f H\x82\xef\xbb\xc35\x8cCb\xba\xe1\xa1XZ\xadX_\x9e\x81Z\x05\xe9\xb8%\xd4|\xec(\t\xbf\x94\xbc!\xaa\x1c4/\xd6h\t\xb9\xe8)\x93\xfa\x0bd\x1f\x15\x9a\x81\x81(5\t\xa6\xdc"
 ]
 
 
@@ -48,59 +53,72 @@ ca=False
 socktion =None
 
 def str2hex(s:str):
-    return ''.join([hex(ord(c))[2:].zfill(2) for c in s])
-
+    
+    return ''.join([hex(ord(c))[2:].zfill(2) for c in s])    
+def get_status(id):
+    from time import sleep
+    import requests
+    
+    
+    r= requests.get('https://ff.garena.com/api/antihack/check_banned?lang=en&uid={}'.format(id)) 
+    a = "0"
+    if  a in r.text :
+        #acount ban
+        return ("Account Clear !" )
+        
+    else : 
+        #acount clear
+        return ('Account Ban ! ')
+        
+        
 def get_info(user_id):
-	global ff_player_region,requests,json
-	import requests,json
+    import requests
+    id = user_id
+    cookies = {
+        '_ga': 'GA1.1.2123120599.1674510784',
+        '_fbp': 'fb.1.1674510785537.363500115',
+        '_ga_7JZFJ14B0B': 'GS1.1.1674510784.1.1.1674510789.0.0.0',
+        'source': 'mb',
+        'region': 'MA',
+        'language': 'ar',
+        '_ga_TVZ1LG7BEB': 'GS1.1.1674930050.3.1.1674930171.0.0.0',
+        'datadome': '3e5U3XWfdtot6ybDWuh~uh2OyNSX0tnwiMY3cxqrEcXpUxmqFG3gf6K5c1Broa_XfPqwPmI2~t-nS148FYPuT~Z7zHr_m1TApmi7vML1ie-5x~8CuEJU8pSUL8U6mnyS',
+        'session_key': 'efwfzwesi9ui8drux4pmqix4cosane0y',
+    }
 
-	id = user_id
-	cookies = {
-	'_ga': 'GA1.1.2123120599.1674510784',
-	'_fbp': 'fb.1.1674510785537.363500115',
-	'_ga_7JZFJ14B0B': 'GS1.1.1674510784.1.1.1674510789.0.0.0',
-	'source': 'mb',
-	'region': 'MA',
-	'language': 'ar',
-	'_ga_TVZ1LG7BEB': 'GS1.1.1674930050.3.1.1674930171.0.0.0',
-	'datadome': '6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0',
-	'session_key': 'efwfzwesi9ui8drux4pmqix4cosane0y',
-}
-
-	headers = {
-	'Accept-Language': 'en-US,en;q=0.9',
-	'Connection': 'keep-alive',
+    headers = {
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Connection': 'keep-alive',
         # 'Cookie': '_ga=GA1.1.2123120599.1674510784; _fbp=fb.1.1674510785537.363500115; _ga_7JZFJ14B0B=GS1.1.1674510784.1.1.1674510789.0.0.0; source=mb; region=MA; language=ar; _ga_TVZ1LG7BEB=GS1.1.1674930050.3.1.1674930171.0.0.0; datadome=6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0; session_key=efwfzwesi9ui8drux4pmqix4cosane0y',
-	'Origin': 'https://shop2game.com',
-	'Referer': 'https://shop2game.com/app/100067/idlogin',
-	'Sec-Fetch-Dest': 'empty',
-	'Sec-Fetch-Mode': 'cors',
-	'Sec-Fetch-Site': 'same-origin',
-	'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',
-	'accept': 'application/json',
-	'content-type': 'application/json',
-	'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-	'sec-ch-ua-mobile': '?1',
-	'sec-ch-ua-platform': '"Android"',
-	'x-datadome-clientid': '20ybNpB7Icy69F~RH~hbsvm6XFZADUC-2_--r5gBq49C8uqabutQ8DV_IZp0cw2y5Erk-KbiNZa-rTk1PKC900mf3lpvEP~95Pmut_FlHnIXqxqC4znsakWbqSX3gGlg',
-}
+        'Origin': 'https://shop2game.com',
+        'Referer': 'https://shop2game.com/app/100067/idlogin',
+        'Sec-Fetch-Dest': 'empty',
+        'Sec-Fetch-Mode': 'cors',
+        'Sec-Fetch-Site': 'same-origin',
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',
+        'accept': 'application/json',
+        'content-type': 'application/json',
+        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-platform': '"Android"',
+        'x-datadome-clientid': '20ybNpB7Icy69F~RH~hbsvm6XFZADUC-2_--r5gBq49C8uqabutQ8DV_IZp0cw2y5Erk-KbiNZa-rTk1PKC900mf3lpvEP~95Pmut_FlHnIXqxqC4znsakWbqSX3gGlg',
+    }
 
-	json_data = {
-    'app_id': 100067,
-    'login_id': f'{id}',
-    'app_server_id': 0,
-}
+    json_data = {
+        'app_id': 100067,
+        'login_id': f'{id}',
+        'app_server_id': 0,
+    }
 
-	res = requests.post('https://shop2game.com/api/auth/player_id_login', cookies=cookies, headers=headers, json=json_data)
-	response = json.loads(res.text)
-	try :
-		name=response['nickname']
-		region = response["region"]
-		name = [name,region]
-		ff_player_region =name[1]
-	except:
-		pass
-	return name[0]
+    res = requests.post('https://shop2game.com/api/auth/player_id_login', cookies=cookies, headers=headers, json=json_data)
+
+    response = res.json()
+    try : 
+        name=response['nickname']
+    except:
+        name=response
+
+    return name 
 def convert_to_bytes(input_string):
     # replace non-hexadecimal character with empty string
     cleaned_string = input_string[:231] + input_string[232:]
@@ -157,154 +175,48 @@ def gen_msgv2(packet  , replay):
 
 
 
-def check_information(uid,abbr):
-	player_uid = uid
-
-	servers_name_db = {
-	"bd": "بنغلاديش",
-	"br": "البرازيل",
-	"eu": "اروبا",
-	"hk": "هونج كونج",
-	"id": "أندونوسيا",
-	"in": "الهند",
-	"me": "الشرق الأوسط",
-	"mo": "ماكوي",
-	"my": "ماليسيا",
-	"ph": "فليبينيس",
-	"pk": "باكيستان",
-	"ru": "روسيا",
-	"sa": "أمريكا",
-	"sg": "سنغفورة",
-	"th": "التيلاند",
-	"tw": "الطيوان",
-	"vn": "فيتنام",
-	"ind" : "الهند"
-	}
-	def get_server_name(abbr):
-		short_name = abbr.lower()
-		return servers_name_db[short_name]
-	try:
-		player_server = get_server_name(abbr)
-	except:
-		player_server = abbr
-	def check_if_banned(uid):
-		response_bol = None
-		request_url = f"https://ff.garena.com/api/antihack/check_banned?lang=en&uid={uid}"
-		req_server = requests.get(request_url)
-		req_response = req_server.text
-		req_response = json.loads(req_response)
-		if req_response["status"]=="success":
-			formula = req_response["data"]["is_banned"]
-			if formula==1:
-				response_bol=True
-			elif formula==0:
-				response_bol=False
-		return response_bol
-	def return_result(res_bol):
-		if res_bol:
-		#ban
-			return "[FF0000][b][c]تم تعليقه !"
-		elif res_bol==False:
-		#clear
-			return "[00FF00][b][c]متصل !"
-	msg = return_result(check_if_banned(uid))
-	return (player_server,msg)
 
 def getinfobyid(packet , user_id , client):
-    player_name = get_info(user_id)
-    player_region = ff_player_region
-    received_data = check_information(user_id,player_region)
-    final_info_region = received_data[0]
-    final_ban_msg = received_data[1]
-    #player_name
-    #final_info_region
-    #
-#--------------------------------------------------
-
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]معلومات الاعب ! """)
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]معلومات الاعب !  """)
-    client.send(bytes.fromhex(pyload_3))
-    client.send(bytes.fromhex(pyload_3))
-        
-#id plyaer
-    time.sleep(4.0)
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]أيدي الاعب : [FFA500]""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]أيدي الاعب : [FFA500]""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{user_id}""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{user_id}""")
-    client.send(bytes.fromhex(pyload_3))
-    #splach
-    pyload_3 = gen_msgv2_clan(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
-    client.send(bytes.fromhex(pyload_3))
-        #name
-        
-        
-    time.sleep(2.0)
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]إسم لاعب : [FFA500]""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]إسم لاعب : [FFA500]""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{player_name}""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{player_name}""")
-    client.send(bytes.fromhex(pyload_3))
-        
-        
-        #splach1
-    pyload_3 = gen_msgv2_clan(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
-    client.send(bytes.fromhex(pyload_3))
-        
-        
-        #region
-    time.sleep(2.0)
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]المنطقة : [FFA500]""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]المنطقة : [FFA500]""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{final_info_region}""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{final_info_region}""")
-    client.send(bytes.fromhex(pyload_3))
-        
-        ##
-#splach2
-
-    pyload_3 = gen_msgv2_clan(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[ffd319][b][c]جاري تحميل . . .""")
-    client.send(bytes.fromhex(pyload_3))
-        
-        
-        #ban check
-    time.sleep(2.0)
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]حالة الاعب : """)
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]حالة الاعب : """)
-    client.send(bytes.fromhex(pyload_3))
-    client.send(bytes.fromhex(pyload_3))
-        
-        
-        
-        #
     
-    pyload_3 = gen_msgv2_clan(packet , f"""[00FF00][b][c]{final_ban_msg}""")
-    client.send(bytes.fromhex(pyload_3))
-    pyload_3 = gen_msgv2(packet , f"""[00FF00][b][c]{final_ban_msg}""")
-    client.send(bytes.fromhex(pyload_3))
-    client.send(bytes.fromhex(pyload_3))
-
-
+    load = gen_msgv2(packet , """[00FFFF][b][c]Player Info -->>""")
+    load2 =gen_msgv2_clan(packet , """[00FFFF][b][c]Player Info -->> """) 
+    for i in range(1):
+        time.sleep(1.5)
+        client.send(bytes.fromhex(load))
+        client.send(bytes.fromhex(load2))
+    
+    name = get_info(user_id)
+    stat = get_status(user_id)
+    if "id" not in name:
+        pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]Player Name -->> [FFA500]{name}""")
+        client.send(bytes.fromhex(pyload_3))
+        pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]Player Name -->> [FFA500]{name}""")
+        client.send(bytes.fromhex(pyload_3))
         
+        pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]Status : [00ff00][b][c] {stat}""")
+        client.send(bytes.fromhex(pyload_3))
+        pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]Status : [00ff00][b][c] {stat}""")
+        client.send(bytes.fromhex(pyload_3))
+        client.send(bytes.fromhex(pyload_3))
 
+    else:
+        pyload_1 = str(gen_msgv2_clan(packet , f"""[00FFFF][b][c]Player Name -->> [FFA500]{name}"""))
+        client.send(bytes.fromhex(pyload_1))
+        pyload_1 = str(gen_msgv2(packet , f"""[00FFFF][b][c]Player Name -->> [FFA500]{name}"""))
+        client.send(bytes.fromhex(pyload_1))
+        pyload_3 = gen_msgv2_clan(packet , f"""[00FFFF][b][c]Player Name -->> [FFA500]{name}""")
+        client.send(bytes.fromhex(pyload_3))
+        pyload_3 = gen_msgv2(packet , f"""[00FFFF][b][c]Player Name -->> [FFA500]{name}""")
+        client.send(bytes.fromhex(pyload_3))
+        
+def loop_send():
+    global botcomendenable
+    print(remote_send)
+    for data in __list_:
+        time.sleep(0.8)
+        remote_send.send(data)
 
+    botcomendenable=True
 
 def gen_msgv2_clan(packet  , replay):
     
