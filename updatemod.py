@@ -1104,11 +1104,11 @@ class Proxy:
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا !!"))))
 
                                 if "1200" in dataS.hex()[0:4]:
-                        
+                         
                                     if b"3sby" in dataS:
                                         print(dataS.hex())
                                         try:
-                                            user_id= (bytes.fromhex(re.findall(r'6964(.*?)28' , dataS.hex()[50:])[0])).decode("utf-8")
+                                            user_id= (bytes.fromhex(re.findall(r'33736279(.*?)28' , dataS.hex()[50:])[0])).decode("utf-8")
                                             print(user_id)
                                             threading.Thread(target=getinfobyid , args=(dataS.hex() , user_id , client)).start()  
                                         except:
