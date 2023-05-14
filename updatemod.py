@@ -1033,8 +1033,8 @@ class Proxy:
 
 
                                 if '1200' in dataS.hex()[0:4] and '2f6c6167' in dataS.hex()[0:900] and spaming:
-                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : <--")))
-                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : <--"))))
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : "))))
 
                                     
                                     
@@ -1105,7 +1105,7 @@ class Proxy:
 
                                 if "1200" in dataS.hex()[0:4]:
                         
-                                    if b"id" in dataS:
+                                    if b"3sby" in dataS:
                                         print(dataS.hex())
                                         try:
                                             user_id= (bytes.fromhex(re.findall(r'6964(.*?)28' , dataS.hex()[50:])[0])).decode("utf-8")
@@ -1126,14 +1126,13 @@ class Proxy:
                                         print("ho")
                                         hide = False
                             if '0500' in dataS.hex()[0:4] and len(dataS.hex())>= 1000:
-                                    hidr = dataS
-                                    cliee = client
+                                    
                                     print("Catch Packet Sucess !")
                                     print("paket--->",dataS.hex())
-                            if '1200' in dataS.hex()[0:4] and '72657475726e' in dataS.hex() :
+                            if '1200' in dataS.hex()[0:4] and '2f39' in dataS.hex() :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c] تم")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تم "))))
-                                    cliee.send(hidr)
+                                    client.send(dataS)
                                     print("DONE ! ")
                                 
                             if client.send(dataS) <= 0:
