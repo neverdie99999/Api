@@ -359,6 +359,9 @@ class Proxy:
         self.password = "username"
         self.packet = b''
         self.sendmode = 'client-0-'
+        self.spam_level=False
+        self.spam_foxy=False
+
 
 
     def handle_client(self, connection):
@@ -617,6 +620,17 @@ class Proxy:
                             print("socket is defined suucesfuly !..")
                             t = threading.Thread(target=timesleep, args=())
                             t.start()
+                            #level_PRO++
+                        if "0315" in dataC.hex()[0:4] and len(dataC.hex())>820 and self.spam_level==True:
+                            self.start_game=dataC
+                            print("packet >>"+dataC.hex())
+                            threading.Thread(target=self.level_up ).start()
+                            #level_low
+                        if "0315" in dataC.hex()[0:4] and len(dataC.hex())>820 and self.spam_foxy==True:
+                            self.start_walid=dataC
+                            print("packet >>"+dataC.hex())
+                            threading.Thread(target=self.foxy_up ).start()
+
 
 
 
@@ -826,7 +840,88 @@ class Proxy:
                                     invite.send(bytes.fromhex("05150000002098a0bdfd5abbd47ea20d1652a8fa374c78f2fe11f3bf6f5a15ac2dff2ecfd436"))
 
 
+                                if '1200' in dataS.hex()[0:4] and '3f6c766c' in dataS.hex()[0:900] :
+                                    
 
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعل !!")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعل  !! "))))
+                                    
+                                    time.sleep(2.0)
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد"))))
+                                    
+                                    time.sleep(3.5)
+                                    
+                                    self.spam_level=True
+                                    
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-07]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-07]"))))
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                #level_OFF
+                                if '1200' in dataS.hex()[0:4] and '3f2d6c766c' in dataS.hex()[0:900] :
+                                
+
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
+                                    
+                                    self.spam_level=False
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        #level_ON       Low
+                                                                     
+                                if '1200' in dataS.hex()[0:4] and '3F6C766C31' in dataS.hex()[0:900] :
+                                    
+
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعلة للأجهزة البطيئة !!")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]زيادة لفل مغعلة للأجهزة البطيئة  !! "))))
+                                    
+                                    time.sleep(2.0)
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]المود : [171dcd][b][c] ذئب وحيد"))))
+                                    
+                                    time.sleep(3.5)
+                                    
+                                    self.spam_foxy=True
+                                    
+                                    
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
+                                    
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-07]")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-07]"))))
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                #level_OFF
+                                if '1200' in dataS.hex()[0:4] and '3F2D6C766C31' in dataS.hex()[0:900] :
+                                
+
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
+                                    
+                                    self.spam_foxy=False
+                                    
+                                   #end
+                                    
 
 
 
@@ -972,6 +1067,57 @@ class Proxy:
             except Exception as e:
                 
                 pass
+                
+                
+                #level UP
+    def level_up(self ):
+    
+        time.sleep(3)
+        print("start")
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+           
+        while self.spam_level==True :
+            
+            
+            
+            self.op.send(self.start_game)
+            
+
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            
+            
+            time.sleep(3)
+            
+            #device_low
+            
+    def foxy_up(self ):
+    
+        time.sleep(10)
+        print("start")
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+        self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            
+        while self.spam_foxy==True :
+            
+            
+            
+            self.op.send(self.start_walid)
+            
+
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
+            
+            
+            time.sleep(10)
+
+
+
 
 def start_bot():
     try :
