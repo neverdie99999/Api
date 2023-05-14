@@ -884,6 +884,7 @@ class Proxy:
 
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اصمت أنت فوضع التجسس !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]أصمت أنت فوضع التجسس !"))))
+                                    time.sleep(2.0)
                                     client.send(dataS)
                                     socktion.send(packet)
                                     
@@ -990,7 +991,7 @@ class Proxy:
                                     
                                         #level_ON       Low
                                                                      
-                                if '1200' in dataS.hex()[0:4] and '3F6C766C31' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '2F6C766C' in dataS.hex()[0:900] :
                                     
 
                                     
@@ -1049,6 +1050,7 @@ class Proxy:
                                     #back_one_time
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"/back" in dataS:
+                                        time.sleep(1.5)
                                         back=True
                                         threading.Thread(target=self.foxy , args=(self.data_join,)).start()
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]تم إسترجاعك ")))
@@ -1069,6 +1071,7 @@ class Proxy:
                                  
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"/ca" in dataS:
+                                        time.sleep(1.5)
                                         ca=True
                                         threading.Thread(target=self.walid , args=(self.data_join,)).start()
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري ")))
@@ -1167,7 +1170,7 @@ class Proxy:
         while ca==True:
             try:
                 self.op.send(data_join)
-                time.sleep(1.0)
+                time.sleep(1.5)
                 self.op.send(self.data_back)
                 #                           0515000000104903408b9e91774e75b990038dddee49
             except Exception as e:
