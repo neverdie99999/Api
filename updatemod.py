@@ -526,7 +526,7 @@ class Proxy:
                         else:
                             if  botcomendenable==True:
                                 #spam_invite
-                                if '1200' in dataS.hex()[0:4] and '2f646573' in dataS.hex()[0:900] : 
+                                if '1200' in dataS.hex()[0:4] and '2f646573' in dataS.hex()[0:900] and Fox==True :
                                     inviteD =True
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تدمير سكواد <<-- [00ff00][b][c] م")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تدمير سكواد <<-- [00ff00][b][c] مفعل"))))
@@ -547,12 +547,12 @@ class Proxy:
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-03]")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-03]"))))
                                     #invite_spam OFF
-                                if '1200' in dataS.hex()[0:4] and '2f2d646573' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '2f2d646573' in dataS.hex()[0:900] and Fox==True :
                                     inviteD =False
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت ! "))))
                                 #spy_last_sqoud
-                                if '1200' in dataS.hex()[0:4] and '2f737079' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '2f737079' in dataS.hex()[0:900] and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اصمت أنت فوضع التجسس !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]أصمت أنت فوضع التجسس !"))))
                                     client.send(dataS)
@@ -574,14 +574,14 @@ class Proxy:
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-06]"))))
                                     invite.send(bytes.fromhex("051500000020c11276a71758d617ce3164fa4f9ffaa161c8ce760d5624595cf741e6df06ff7a"))
                                   #2_sqoud
-                                if '1200' in dataS.hex()[0:4] and '2f32' in dataS.hex()[0:900]:
+                                if '1200' in dataS.hex()[0:4] and '2f32' in dataS.hex()[0:900] and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c] تحويل وضع سكواد 2")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحويل وضع سكواد 2"))))
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-01]")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-01]"))))
                                     invite.send(bytes.fromhex("05150000002098a0bdfd5abbd47ea20d1652a8fa374c78f2fe11f3bf6f5a15ac2dff2ecfd436"))
                                 #lvl PRO +ON
-                                if '1200' in dataS.hex()[0:4] and '3f6c766c' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '3f6c766c' in dataS.hex()[0:900] and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعل !!")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعل  !! "))))
                                     time.sleep(2.0)
@@ -591,12 +591,12 @@ class Proxy:
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-07]")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-07]"))))
                                 #lvl PRO +OFF
-                                if '1200' in dataS.hex()[0:4] and '3f2d6c766c' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '3f2d6c766c' in dataS.hex()[0:900] and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
                                     self.spam_foxy=False
                                 #lvl LOW +ON
-                                if '1200' in dataS.hex()[0:4] and '2F6C766C' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '2F6C766C' in dataS.hex()[0:900] and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]زيادة لفل مفعلة للأجهزة البطيئة !!")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]زيادة لفل مغعلة للأجهزة البطيئة  !! "))))
                                     time.sleep(2.0)
@@ -606,17 +606,17 @@ class Proxy:
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[1200000002-07]")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[1200000002-07]"))))
                                 #lvl LOW +OFF
-                                if '1200' in dataS.hex()[0:4] and '3F2D6C766C31' in dataS.hex()[0:900] :
+                                if '1200' in dataS.hex()[0:4] and '3F2D6C766C31' in dataS.hex()[0:900] and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
                                     increase =False
                                 #spam MSG +ON
-                                if '1200' in dataS.hex()[0:4] and '2f6c6167' in dataS.hex()[0:900] and spaming:
+                                if '1200' in dataS.hex()[0:4] and '2f6c6167' in dataS.hex()[0:900] and spaming and Fox==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : ")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : "))))
                                     recordmode = True
                                 #spam MSG +OFF
-                                if '1200' in dataS.hex()[0:4] and '2f2d6c6167' in dataS.hex()[0:900]:
+                                if '1200' in dataS.hex()[0:4] and '2f2d6c6167' in dataS.hex()[0:900] and Fox==True :
                                     recordmode=False
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
@@ -642,10 +642,9 @@ class Proxy:
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]The Foxy Official [FFC800][b][c]Ⓥ"))))
                                     statues= False
-                               #spam BACK +ON
+                               #Activation Key
                                 if '1200' in dataS.hex()[0:4]:
-                                    if b"/ca" in dataS:
-                                        time.sleep(1.5)
+                                    if b"Fox" in dataS:
                                         Fox=True
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]تم تفعيل المفتاح  .")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]تم تفعيل المفتاح . "))))
