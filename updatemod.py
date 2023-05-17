@@ -274,7 +274,7 @@ vares = 0
 spy = False
 inviteD=False
 inviteE=False
-FoxC=True
+FoxC=False
 op = None
 global statues
 statues= True
@@ -617,6 +617,11 @@ class Proxy:
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت !"))))
                                     statues= False
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"Fox-3sby" in dataS:
+                                        Fox=True
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !"))))
                                 #spam BACK +AUTO OFF
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"/ca" in dataS:
