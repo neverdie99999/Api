@@ -735,4 +735,4 @@ def start_bot():
         Proxy().runs('127.0.0.1',3000)
     except Exception as e:
         sea=2
-
+start_bot()
