@@ -591,12 +591,11 @@ class Proxy:
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]تم إسترجاعك "))))
                                         statues= False
                                 #spam BACK +ON
-                                if '1200' in dataS.hex()[0:4]:
-                                    if b"/ca" in dataS:
-                                        ca=True
-                                        threading.Thread(target=self.walid , args=(self.data_join,)).start()
-                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري ")))
-                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري "))))
+                                if '1200' in dataS.hex()[0:4] and '/ca' in dataS.hex()[0:900] and FoxC==True :
+                                    ca=True
+                                    threading.Thread(target=self.walid , args=(self.data_join,)).start()
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]اللعب الإجباري "))))
                                     statues= False
                                 #spam BACK +OFF
                                 if '1200' in dataS.hex()[0:4]:
