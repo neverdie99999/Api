@@ -584,8 +584,7 @@ class Proxy:
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]توقفت !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
                                 #back LAST SQOUD !
-                                if '1200' in dataS.hex()[0:4]:
-                                    if b"/back" in dataS and FoxE==True :
+                                if '1200' in dataS.hex()[0:4] and b"/back" in dataS and FoxE==True :
                                         back=True
                                         threading.Thread(target=self.foxy , args=(self.data_join,)).start()
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]تم إسترجاعك ")))
