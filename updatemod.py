@@ -619,7 +619,7 @@ class Proxy:
                                     statues= False
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"Fox-3sby" in dataS:
-                                        Fox=True
+                                        FoxC=True
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !"))))
                                 #spam BACK +AUTO OFF
