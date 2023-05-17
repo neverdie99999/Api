@@ -655,15 +655,15 @@ class Proxy:
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]تم تفعيل المفتاح !"))))
                                         #الشراء
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]لتطوير البوت الخاص بك قم بإرسال الأمر : /bot !")))
-                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]لتطوير البوت الخاص بك قم بإرسال الأمر : /bot !")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]لتطوير البوت الخاص بك قم بإرسال الأمر : /bot !"))))
                                 #follow_for.bot
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"/bot" in dataS:
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c] الدورة التعلمية موجودة بحسابنا الأنستقرام.")))
-                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c] الدورة التعلمية موجودة بحسابنا الأنستقرام.")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c] الدورة التعلمية موجودة بحسابنا الأنستقرام."))))
                                         #الشراء
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]@the_foxy999")))
-                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]@the_foxy999")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]@the_foxy999"))))
                                 #id PLAYER INFO 
                                 if "1200" in dataS.hex()[0:4]:
                                     if b"3sby" in dataS:
