@@ -275,6 +275,7 @@ spy = False
 inviteD=False
 inviteE=False
 FoxC=False
+FoxB=False
 op = None
 global statues
 statues= True
@@ -432,6 +433,7 @@ class Proxy:
                     global s
                     global x
                     global ca
+                    global FoxB
                     global FoxC
                     global serversocket
                     global isconn ,inviteD ,back
@@ -495,6 +497,7 @@ class Proxy:
                         global gameplayed
                         global packet
                         global socktion
+                        global FoxB
                         global ca
                         global FoxC
                         global increase ,back
@@ -529,9 +532,9 @@ class Proxy:
                             if  botcomendenable==True:
                                 #spam_invite
                                 if '1200' in dataS.hex()[0:4] and '2f646573' in dataS.hex()[0:900] and FoxC==True :
-                                    inviteD =True
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تدمير سكواد <<-- [00ff00][b][c] مفعل")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تدمير سكواد <<-- [00ff00][b][c] مفعل"))))
+                                    inviteD =True
                                     #Follow_Us1
                                 if '1200' in dataS.hex()[0:4] and '666f7879' in dataS.hex()[0:900] :
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]Instagram : [FFC800][b][c]@the_foxy999"))))
@@ -549,8 +552,10 @@ class Proxy:
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت ! "))))
                                 #spy_last_sqoud
                                 if '1200' in dataS.hex()[0:4] and '2f737079' in dataS.hex()[0:900] and FoxC==True :
+                                    time.sleep(1.5)
                                     client.send(dataS)
                                     socktion.send(packet)
+                                    time.sleep(4.0)
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]اصمت أنت فوضع التجسس !")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]أصمت أنت فوضع التجسس !"))))
                                 #5_sqoud
@@ -568,22 +573,6 @@ class Proxy:
                                     invite.send(bytes.fromhex("05150000002098a0bdfd5abbd47ea20d1652a8fa374c78f2fe11f3bf6f5a15ac2dff2ecfd436"))
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c] تحويل وضع سكواد 2")))
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحويل وضع سكواد 2"))))
-                                #lvl PRO +ON
-                                if '1200' in dataS.hex()[0:4] and '3f6c766c' in dataS.hex()[0:900] and FoxC==True :
-                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!")))
-                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!"))))
-                                #lvl PRO +OFF
-                                if '1200' in dataS.hex()[0:4] and '3f2d6c766c' in dataS.hex()[0:900] and FoxC==True :
-                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!")))
-                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!"))))
-                                #lvl LOW +ON
-                                if '1200' in dataS.hex()[0:4] and '2F6C766C' in dataS.hex()[0:900] and FoxC==True :
-                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!")))
-                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!"))))
-                                #lvl LOW +OFF
-                                if '1200' in dataS.hex()[0:4] and '3F2D6C766C31' in dataS.hex()[0:900] and FoxC==True :
-                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!")))
-                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!"))))
                                 #spam MSG +ON
                                 if '1200' in dataS.hex()[0:4] and '2f6c6167' in dataS.hex()[0:900] and spaming and FoxC==True :
                                     client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تكرار رسالتك : ")))
@@ -596,7 +585,7 @@ class Proxy:
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت !"))))
                                 #back LAST SQOUD !
                                 if '1200' in dataS.hex()[0:4]:
-                                    if b"/back" in dataS:
+                                    if b"/back" in dataS and FoxE==True :
                                         back=True
                                         threading.Thread(target=self.foxy , args=(self.data_join,)).start()
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]تم إسترجاعك ")))
@@ -617,11 +606,27 @@ class Proxy:
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت !"))))
                                     statues= False
+                                #Activation
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"Fox-3sby" in dataS:
                                         FoxC=True
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !"))))
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"3sby-VIP" in dataS:
+                                        FoxB=True
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح VIP !!")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح VIP !!"))))
+                                #Lvl Pro 1h ON
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"/lvl" in dataS:
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!"))))
+                               #Lvl Pro 1h OFF
+                                if '1200' in dataS.hex()[0:4]:
+                                    if b"/-lvl" in dataS:
+                                        client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!")))
+                                        client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]عذرا زيادة لفل غير متوفر بنسخة المجانية !!"))))
                                 #spam BACK +AUTO OFF
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"/ca" in dataS:
