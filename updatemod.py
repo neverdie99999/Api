@@ -552,7 +552,6 @@ class Proxy:
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF0000][b][c]توقفت ! "))))
                                 #spy_last_sqoud
                                 if '1200' in dataS.hex()[0:4] and '2f737079' in dataS.hex()[0:900] and FoxC==True :
-                                    time.sleep(1.5)
                                     client.send(dataS)
                                     socktion.send(packet)
                                     time.sleep(4.0)
@@ -602,10 +601,10 @@ class Proxy:
                                         ca=False
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت !"))))
-                                        statues= False
+                                    statues= False
                                 #Activation
                                 if '1200' in dataS.hex()[0:4]:
-                                    if b"Fox-3sby" in dataS:
+                                    if b"Foxy-3sby" in dataS:
                                         FoxC=True
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[FF00FF][b][c]تم تفعيل المفتاح !"))))
@@ -629,7 +628,8 @@ class Proxy:
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا ! !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت تلقائيا !!"))))
                                 #id PLAYER INFO 
-                                if '1200' in dataS.hex()[0:4] and '33736279' in dataS.hex()[0:900] and FoxC==True :
+                                if "1200" in dataS.hex()[0:4]:
+                                    if b"3sby" in dataS:
                                         print(dataS.hex())
                                         try:
                                             user_id= (bytes.fromhex(re.findall(r'33736279(.*?)28' , dataS.hex()[50:])[0])).decode("utf-8")
