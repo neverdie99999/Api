@@ -601,7 +601,7 @@ class Proxy:
                                         ca=False
                                         client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FF00][b][c]توقفت !")))
                                         client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FF00][b][c]توقفت !"))))
-                                    statues= False
+                                        statues= False
                                 #Activation
                                 if '1200' in dataS.hex()[0:4]:
                                     if b"Foxy-3sby" in dataS:
