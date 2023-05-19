@@ -1157,7 +1157,7 @@ class Proxy:
             self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
             
             
-            time.sleep(10)
+            time.sleep(11)
 
 
 
