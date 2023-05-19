@@ -51,7 +51,6 @@ def get_info(user_id):
 	'datadome': '6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0',
 	'session_key': 'efwfzwesi9ui8drux4pmqix4cosane0y',
 }
-
 	headers = {
 	'Accept-Language': 'en-US,en;q=0.9',
 	'Connection': 'keep-alive',
@@ -69,13 +68,11 @@ def get_info(user_id):
 	'sec-ch-ua-platform': '"Android"',
 	'x-datadome-clientid': '20ybNpB7Icy69F~RH~hbsvm6XFZADUC-2_--r5gBq49C8uqabutQ8DV_IZp0cw2y5Erk-KbiNZa-rTk1PKC900mf3lpvEP~95Pmut_FlHnIXqxqC4znsakWbqSX3gGlg',
 }
-
 	json_data = {
     'app_id': 100067,
     'login_id': f'{id}',
     'app_server_id': 0,
 }
-
 	res = requests.post('https://shop2game.com/api/auth/player_id_login', cookies=cookies, headers=headers, json=json_data)
 	response = json.loads(res.text)
 	try :
@@ -1157,7 +1154,7 @@ class Proxy:
             self.op.send(bytes.fromhex("031500000010091eb74eef39b7574e359602b0670ca8"))
             
             
-            time.sleep(11)
+            time.sleep(10)
 
 
 
