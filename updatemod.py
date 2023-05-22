@@ -34,6 +34,7 @@ start =None
 runscript = 0
 import re 
 isconn = False
+FoxM = True
 increase =False
 back=False
 ca=False
@@ -524,6 +525,14 @@ class Proxy:
                                     client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحث صيانة !!"))))
                                     invite.send(bytes.fromhex(""))
                                 #4_sqoud
+                                
+                            if  '1215' in dataS.hex()[0:4] and FoxM==True :
+
+            
+                                    client.send(bytes.fromhex(gen_msgv2(dataS.hex() ,"[00FFFF][b][c]تحث صيانة ")))
+                                    client.send(bytes.fromhex(str(gen_msgv2_clan(dataS.hex() ,"[00FFFF][b][c]تحث صيانة !!"))))
+
+
    
                             if  '0500' in dataS.hex()[0:4] and hide == True  :
                                     socktion =client
