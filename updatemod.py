@@ -764,7 +764,7 @@ class Proxy:
                             connection.close()
                         if  '0f00' in dataS.hex()[0:4] and wlcm == True:
 
-                            wlcm = False
+                            wlcm = True
      
                                 
                         if client.send(dataS) <= 0:
