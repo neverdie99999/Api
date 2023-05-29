@@ -22,8 +22,8 @@ b'\x12\x15\x00\x00\x00p\x047\xfb\xa5\\\x8b\xe8\x1f!7\x16Z\xe3\xf4I\x01\xcfV\xe9;
 b"\x12\x15\x00\x00\x00\x80\x13q,\xe8]9\x8a\xd1us'\xc0p\x91v\xdb\x13\xe4\x06\x7f8<0\xe9\xf3\xfb@L\xdf\xe0)K\x9b\xedH\x8dm\xf0\xf8k\x88\xabK\xb3\\\xbc\xees\x9dS\x90\xbd\xfb\xb4\x89\xf2K\x19\t}\xc8g\n\x90\x98\xfb\xcd+`\tF$\xc3\xd2\x06\x08\xd1\xa3\xaaM5H]m\xbd\xbe\xc7\xb5\xca\xe53\xdd\xd1\xd5\xc4\xeb\x9a!\xd8\xb0\xd1,\x93-4\x16C\x99\xc6S\xba\xa3#b\xc8\xa6\xa0\xb4\xf4j\x8f\xd2\x05\x8b\x82\xa2\x8a\xd9"
 ,
 b'\x12\x15\x00\x00\x00p\xad\xd3\xc5\x1eF\xca%\x96\x06\xdaZ\x99\xc4>_\n\x81\x01]\xf8\xd2\x0b\x84\xbe\x074\\=(\x96\xb5\xa4#\xeem\xe2\x08\x06M\xe4d)\x18\xde\x96\xc2uI\xab\xe1\xcb\xd0\x17\xdc\x04\x8d\x0eF\x1b\xc2\x18Z\xd2\xc0\xb1\x9bX\x8b\x04\xdc\x12\xd8+3~\x9e\x8a\xe0\xddj%\\\xbd\x1bQX\xd6L#C\xa0\x1b\xe5\x16`\xeb]`\x98~;\x93R\x89\xe0\t\x9b \x19FC\xa3'
-,
-b'\x12\x15\x00\x00\x00p\xdf^+\xd65_\xf4\xdb\xf2&\xec\x8d\xfc\xd2\x92\xffa\xcb\xe3\x14I\x8c\x1d\x16(\xa9\xce\xe0=\x0f\x14\x1c\xacV\xe9\xc3\xf9\x1d\xf5\xb3\xfb\xc7\xdfPp\x05d\x1b\x8c4\x86Q\x17?\xaa\x91\xd6\x99\xa3\xe0\x1b\xb4\xbf\xd8\xdd4\xa2\xf2\xbd\x83"\x86p%\x95\xd0X.\x05\xe6MN\x1c\x14\x08k\x95\xac@A|\xf1~t\xc6Ec\x8aZ\xf0\xfb\x82B\xaf\xe6\x16j\xf6\x07F\xad&'
+#,
+#b'\x12\x15\x00\x00\x00p\xdf^+\xd65_\xf4\xdb\xf2&\xec\x8d\xfc\xd2\x92\xffa\xcb\xe3\x14I\x8c\x1d\x16(\xa9\xce\xe0=\x0f\x14\x1c\xacV\xe9\xc3\xf9\x1d\xf5\xb3\xfb\xc7\xdfPp\x05d\x1b\x8c4\x86Q\x17?\xaa\x91\xd6\x99\xa3\xe0\x1b\xb4\xbf\xd8\xdd4\xa2\xf2\xbd\x83"\x86p%\x95\xd0X.\x05\xe6MN\x1c\x14\x08k\x95\xac@A|\xf1~t\xc6Ec\x8aZ\xf0\xfb\x82B\xaf\xe6\x16j\xf6\x07F\xad&'
 ,
 b"\x12\x15\x00\x00\x00p\xde\xa3\xe9fr|a\xcb\x01\xbe\xbc\x00\xc7\xc6\xea\r\x8a'\xf8\xad\xefG\x18^ko\x8aX\xe2q\xfbw\xe40\xcf\x8f\xf0\xea\xea\xb3\x9coYo\xdf)\xbac\x1c\xfcm\xd0\xc0\xdf\xdf\xdc\n^|\x1b:\xd3Fz#\x88\xe54\x972#\xdf\xef\xae8:X\xbb~\xfb\x9f\xfc\xb1\xce\x88j|\x8c\x07\xfb\x10\x88d\x1e.mu^\xe3\x13\xe7\x89V\xe6\xa8\xb3\xad\x88\xc8\xd9\x05\x8e"
 
@@ -726,44 +726,48 @@ class Proxy:
                             
 #info player
                         if idinfo == False:
+                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00FF00][b][c]لحضة  !!")))
+                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00FF00][b][c]احضة  !!")))
                             
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00FF00][b][c]جلب معلومات لاعب !!")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[4dd0e1][b][c]الإسم : ")))                            
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[ff5722][b][c]{getname(number)}")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00ff00][b][c] جاري تحميل . . .")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[4dd0e1][b][c]السيرفر : ")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[ff5722][b][c]{getreg(number)}")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00ff00][b][c] جاري تحميل . . .")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[4dd0e1][b][c]تحقق البند  : ")))                           
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[ff5722][b][c]{get_status(number)}")))                           
+                            
+
+                       
+                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[4dd0e1][b][c]جاري تسجيل دخول الحساب.. ")))
+                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[4dd0e1][b][c]جاري تسجيل دخول الحساب.. ")))                           
+                            
+                            
+                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[ff5722][b][c]{get_status(number)}")))
+                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[ff5722][b][c]{get_status(number)}")))                           
+                            
                             getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00FF00][b][c]-----------------------------------")))
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[FF0000][b][c] FoxyBot (Demo)")))
-                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00FF00][b][c]-----------------------------------")))                       
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00FF00][b][c]جلب معلومات لاعب !!")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[4dd0e1][b][c]الإسم : ")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[ff5722][b][c]{getname(number)}")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00ff00][b][c] جاري تحميل . . .")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[4dd0e1][b][c]السيرفر : ")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[ff5722][b][c]{getreg(number)}")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[ff5722][b][c]{getreg(number)}")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00ff00][b][c] جاري تحميل . . .")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[4dd0e1][b][c]تحقق البند  : ")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[ff5722][b][c]{get_status(number)}")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00FF00][b][c]-----------------------------------")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[FF0000][b][c] insta : @the_foxy999")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[FF0000][b][c] FoxyBot (Demo)")))
-                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00FF00][b][c]-----------------------------------")))
+                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00FF00][b][c]-----------------------------------")))    
+                            
+                            
+                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[FF0000][b][c] FoxyBot (Beta)")))
+                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[FF0000][b][c] FoxyBot (Beta)")))    
+                            
+                            
+                            getin.send(bytes.fromhex(gen_msgv2(newdataS2,f"[00FF00][b][c]@the_foxy999")))
+                            getin.send(bytes.fromhex(gen_msgv2_clan(newdataS2,f"[00FF00][b][c]@the_foxy999")))    
+                            
+
                             
                             idinfo = True
     
-                           
             
-                        if '1200' in dataS.hex()[0:4] and '33736279' in dataS.hex() and idinfo == True:
+
+            
+                        if '1200' in dataS.hex()[0:4] and b'++' in dataS and idinfo == True:
                             print(dataS)
                             newdataS2 = dataS.hex()
                             getin = client          
                             idinfo = False
-                            number = (bytes.fromhex(re.findall(r'33736279(.*?)28' , dataS.hex()[50:])[0])).decode("utf-8")
+                            text = str(bytes.fromhex(newdataS2))
+                            match = re.search(r'\+\+(.*?)\(', text)
+                            number = match.group(1)
+                            
+                            
+                            
                             
 
                         if  '0500' in dataS.hex()[0:4] and hide == True  :
