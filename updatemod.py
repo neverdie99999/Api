@@ -541,7 +541,8 @@ class Proxy:
         self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[00FF00][b][c]@the_foxy999")))  
         pass
     
-
-if __name__=="__main__":
-    proxy = Proxy()
-    proxy.run("127.0.0.1", 3000)
+def start_bot():
+    try :
+        Proxy().runs('127.0.0.1',3000)
+    except Exception as e:
+        sea=2
