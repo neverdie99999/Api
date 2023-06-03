@@ -1,33 +1,130 @@
-from time          import sleep
-from threading     import Thread
+   
 
-import re
+
+
+
+
+
+
+
+ 
+
+
+###
+wlcm = True
+foxybot = True
+ca = False
+command=False
+inviteB = False
+back = False
+offline = False
+spy = False
+msg= False
+socktion =None
+
+op = None
+invite= None
+
+
+
+spams = False
+spampacket= b''
+sendpackt=False
+global statues
+statues= True
+SOCKS_VERSION = 5
+packet =b''
+spaming =True
+###
+listt =[]
+remote_send=None
+botcomendenable=False
+###
+
+global spam
+def spam(server,packet):
+    while True:
+        time.sleep(0.012)
+        server.send(packet)
+        global msg
+        if  msg ==False:
+            break              
+            
+
+def loop_send():
+    global botcomendenable
+    print(remote_send)
+    for data in __list_:
+        time.sleep(0.8)
+        remote_send.send(data)
+
+    botcomendenable=True
+
+import os
+from time import sleep
+import sys
+import time
 import socket
 import threading
 import select
+import re
 import requests
 
+SOCKS_VERSION= 5
 
 
-SOCKS_VERSION = 5
-data_join=b''
-op=None
-squad = False
-hide=None
 class Proxy:
+
+
+ 
     def __init__(self):
         self.username = "username"
         self.password = "username"
-        self.spam_level=False
-        self.spam_chat= False
-        self.botcomendenable=False
-        self.inviteB = False
-        self.back=False
-        self.spy = False
-        self.spamantikick=False
-        self.command=False
-        t = threading.Thread(target=self.udp_server)
-        t.start()
+        self.packet = b''
+        self.sendmode = 'client-0-'
+        
+        self.Spam_Message = [
+
+        ]
+            
+            
+        self.Activ_Code1 = [
+        
+        
+b'\x12\x15\x00\x00\x01\x10?\xa9\xf0 \xed\x80\x95G\xd1\xba\xad\x1c\xd7$\x06\xee"o\x0f^\xa2\xcf!]\xa4\xd0p\x95\xde\xf5\x8f\x88`\xed23\xa8N\'\x0437\x9f\'\x177%7#\xb6\xf1m\xc2\x1f\xd6\xf6\xdb\xddR\x99p]\xd1\xa0\x8e\xd4F\xd5%\x85<n\x87\xf7\xd1\xaa\xa2\xef\xd3z\x03\x83\x0b\x8e\xb6\x93\xdc\xaa)Rl6.[~\x10BN\x85\xff\x8c{\x90\x02A"\xd0\xffj\xf7\xf2\xcf\xd4\x92}\x9a0_\x92\x12(Ga\x07Hi\xcf\x0b\x0f\x932\xcf\x03>O\xefD\xf1\x95\x9aKL\xf5\xcd\x024\xd5\xd3"\xb77\xff\xe1\xef\x9d\xe2\xa8\x1e\xb9\x94\x81\xf0r\xff\xe2\x07\x18\x1e\x0e\x9c\xb8\x1cQ\xe3\x04\xc6\xb2\xf1\x14/8\x7fL|3\xef\x83\xe3\x1f\x95U\x88i2\x89\x8ez>q\xd5o\xc4\x16$\xe7\xc1\x82/c\x1c\x92*\xeb4\x01\x94\xcc\xb3MS7>\xf8\xa8To\xd9L\xf6\x0c\x10\x8b\xe6<\xde\x83\xe3]\xe7\xaf9\x9c\xb5\xb2qK2r\x02\xea\xdd\xeby\xc8\xc7\x03t\xab\x8fu\x81s2\xe9V\xc7\xea\x88\xf0\x7f\x15>'
+,
+b"\x12\x15\x00\x00\x01\x00t\x0b\x999\xbac\x87\x89\x19\xed\x1d\xbf[\xcctl\xb0q>\x19\xf3\xc3\xd4>\x0c\xffWR\x86\x8b\xe4\xaf\x8az\xc7\xf1\x11U\x04F\x0e\x10\xb9\xb7K\xbe\x1f!\xef\xf5x\x03$LlZ/\xd0\xd1xZ;\xca\xfeD\x80\xa1V\xcb\x1af\x9b\xa2\x02K\xc0$\xb1\x18\x90\xd4\xbb\x13\\\xb0\xf6\x16z\xbev'ws\xeaG^\xe1\xc9V\x95\x7f\xd4B\x83\x1d1\x96x\x06\x0f\xc4\xc1\xb4\xe5w\x14\x9b\xc2U\x17\xa5L\x91\x13\xe5\xc7\x89\xa9\x07\xe5L<`\x1e9\xd6\x81\xd3\x0cac\xe8\x97\\]R\xd2iX\x98\xd2\x10b\x87\xa0\xeem\xe1\xe6_Y\xea\xfe\xc7\x04*6bcB\xb1\xee\x11\x9e#\xf0\xec\x15\x06E\x16|@\xf2L\xec\x94\x92\x12!I\x0f\xf6}\xbd\x9e\xaf\x820\x0f\xc0\x13QN1'\xa4\xe9\xeb;\x03\xec\x0b\xe5\xfc\xc7\xb8\x8d+\xec\xd8\xa7d\xf3z\xeawX\x99u]\x06\x03\xc6\x19l\x90\x06\x87\xadW\x96\x9c\xa4G\x12V\x92\xb0\xe9V\x84\xca|\xbe\xc4"
+
+        
+        
+        ]
+        
+        self.Stop_All = [
+b'\x12\x15\x00\x00\x00\xe0I\xc9}\x97]\xae\xfe\\\x8c\xa2t\xdfK\x9e\x0b\xd2%\xb9p\xeb\x86{\xf5n>\xe1f\xb1\xe1\xd2z\x91Q\xde\xb6O\xb4\xe7\x90\xc5}\xd9\x96[\x17\xd0b\xe1m\xe1\x82\x1d\t\xba,H\xa4\xf1\x96\x00\x95O\xfe\xfeF\xe7\xf7\xf4\xb7\xdc\xcf\x13v\xcf\x83\xce\x9e\x9eH`\xd8\x08\xf1\xf2\t\xd8\x99\x16\xfd~\xa6\xa6/\'\x1b\xdf\xdc`K\x14V\x92\xe2\x96\x1aL\xce\xb7\\7e\x9fL(\xc0y\xfa\xfa\xef\x92&\xa4\xaa\xb47\x8d:oX\xae\xa6\x89N)\x8f\xa2 \x85s\x16\x12\xfc\x85\x01\xe0\xb2xEm\x10\xfe\x8d\x86>\xb3\\\x03\x93`}"\xe5\xfdl\'1\x1e\x92\xde\\\xf5bAg3\xce\xaf\xc6u[xy\xc8\x93p\xd31l\x94\xcb\x01\xe2\x18\xd5\x92c\xee\t\x01\x12\xb0\xb1\xf5\xd8\xcd\xfe\x04\xa2\xc7\xc9\xc8\x13*7MON\xa0\x9b\xf7\x99KK\xdc'
+
+        
+        ]
+        
+        self.running = [
+        
+b'\x12\x15\x00\x00\x00\xe0I\xc9}\x97]\xae\xfe\\\x8c\xa2t\xdfK\x9e\x0b\xd2U\x9es\xd5L\xafK\xbdp\xd6=\x94\xd1\xb4\xaa6g\x99\xb1-\x90@\x88\xf5\xfe\xb96\xd6GN\x9b=\xbf\x8c;\xe4j/\xd1\x00\x19\x9f7^\xf1Yvv\x19\x8d\x8d\x01*\xa3\xbd\x04]\xbd\xd2\xc3p$\x15\xb4\xe0\xc5p\xbas\xc5\x14\x81rTl\xe8\x8e\x9a\xe7\xd2\x9f\x7f\x02\xa7\xf9\xf7\x00\xadH\xdd\xf5\xb2\t\xef\x18p\xecW\xe4Z\xfa\xe2mF\xee)\x82\xe9"wk\xeb\xfc\xb4\x15\xc8\xa3\xdd\x94\xff\xebB/\xde\x8c.\x19\xf2T\x9b\x82#\x1c\x85AXS \xf8\x0b\xb30\tI+\x80\xcfRg\xc8\xe3\xeb\x9d\x0f\x9c\x84\x98c\xb5>\x85\x8f\x02$\x0e:\xd5\x8d\x1b\x0ey\xd1\x16\x82K\xf4\'\xea\x17\x0c\x8a\xf7\x17\xc7\x8e\xd3M\xc7Ba\x12hA]xom\xb0\x85\xf9\xa7\xffeR\xbaf\xe4\x9e'
+
+
+        
+        
+        ]
+            
+            
+        self.update = [
+b"\x12\x15\x00\x00\x00\xf0S\xef\x02\xf5\x95H\x1d\\7\xa59\xd8\x1c\x92\xfc=\x88D E\xef\xfc\x86\x02\x11\xe1\xd8l\xafx\xe7\xc0\xb7\xbd\xe1$#\x83,\xaa(\x18\x9e\xee\x9a^\x8e\xe3\xea\xdc-L\x81\xc6\xff\x86\x86\x19\xc0\xdc\xbe2f\x8e\xec\xf7\x8f\xea\x03T\xac\x8ej\xb8\x86\xaa\xbcb\xe4'\xf6\x89\x86\x91J\xd4m%\xe8\xa4._\xa1\xd6\xbf\x9cvB\x1f\x9b\xc5\xbcQd\x17\xe1\xaa\xf0\x93x\x84\xae2dR\x90\x9b?9\x81xX4\x97:\x9cA`^\xd1\x0e\xd8\xed\xe7\x08\xe5\x1eD\xa9\xf6K\xd2\xb0\x05\xf4\x19\xa8)\xb1\xd7\xe4\x01\xe6\xe6\xb0.\xca\xc0Z\xec\xf5\xf4\x89\x1e\xa70\x98\x90\xb7y\xdcw{W\xf2\xf1\x06\x95\x1a\x8463\x9d\xa3\x8bn\xd2\x95\xe2`J\xbc\x80t\xe4\xcd\xf8F\x0ew\xa59\x8e\xe3\xbf\x10\xd0$}\n$\xd6\xbf^\xa5\xbb\xb3\x02\x81\x95dI\x96+\xb7\x95\xc2\x18\x0c\x18\xe3\x06\xfc\x1d\rL\x9f\xaf\x94\xdf"
+
+
+        
+        
+        ]
+        
+        
+            #Welcome
         self.__list_ = [
             b'\x12\x15\x00\x00\x00\xb0\xddt\xa5\xe5;\xf4\'\x02M\xd0G\x83\\\xa5\x8ew\x03\x84\x13O\xef\xcb\x02\xe4-\x86\x0eZ\x92\xbb\x9b\xa6\x9f\xc1S\xd0\xb2S;\xa0{\xcb8\n\xe0+e+4\xc4l\xf8\xea+\x15\xbe\nW\x9d\x08W\x86ky\x9a\xd1\x96\x0e\xa7\x03\xa8\xf6\x97"\x1b/\xf8\xd3\x13\xd0\x06\xf9Y\xf6]\xe3dA\xf7\xd8X\xaf(N\xf1\x9c\x99\xffJ\x13\xde\xe6]%w\x0f#\x00\'_\x8c\xc3^\xb5K|\x0f\xe9r\xa4L\xdb-\xfd\xebD\x1b\xf1B_\xe7\x0eY\xfai\xfd\x97&\xd1gb\xe3*\x171\xbe\xf2^\x13\xf3\xa4\xa7tf\xcb\x97*\xa3a\xe5\xe4JSg\xaab/\x1e\xb1\rb\xd6\x03]l\x88'
             ,
@@ -53,262 +150,81 @@ class Proxy:
             ,
             b"\x12\x15\x00\x00\x00p\xde\xa3\xe9fr|a\xcb\x01\xbe\xbc\x00\xc7\xc6\xea\r\x8a'\xf8\xad\xefG\x18^ko\x8aX\xe2q\xfbw\xe40\xcf\x8f\xf0\xea\xea\xb3\x9coYo\xdf)\xbac\x1c\xfcm\xd0\xc0\xdf\xdf\xdc\n^|\x1b:\xd3Fz#\x88\xe54\x972#\xdf\xef\xae8:X\xbb~\xfb\x9f\xfc\xb1\xce\x88j|\x8c\x07\xfb\x10\x88d\x1e.mu^\xe3\x13\xe7\x89V\xe6\xa8\xb3\xad\x88\xc8\xd9\x05\x8e"
         ]
+        
+
     def handle_client(self, connection):
-        # greeting header
-        # read and unpack 2 bytes from a client
+  
+        
+    
         version, nmethods = connection.recv(2)
-
-        # get available methods [0, 1, 2]
         methods = self.get_available_methods(nmethods, connection)
+ 
+  
 
-        # accept only USERNAME/PASSWORD auth
-        if 2 not in set(methods):
-            # close connection
-            connection.close()
+        if 2   in set(methods):
+            if 2 in set(methods):
+
+                connection.sendall(bytes([SOCKS_VERSION, 2]))
+            else:
+                connection.sendall(bytes([SOCKS_VERSION, 0]))
+                
+    
+
+   
+
+        if not self.verify_credentials(connection,methods):
             return
-
-        # send welcome message
-        connection.sendall(bytes([SOCKS_VERSION, 2]))
-
-        if not self.verify_credentials(connection):
-            return
-
-        # request (version=5)
         version, cmd, _, address_type = connection.recv(4)
+        
+        
 
-        if address_type == 1:  # IPv4
+        if address_type == 1:
             address = socket.inet_ntoa(connection.recv(4))
-        elif address_type == 3:  # Domain name
+        elif address_type == 3:
             domain_length = connection.recv(1)[0]
             address = connection.recv(domain_length)
             address = socket.gethostbyname(address)
-
-        # convert bytes to unsigned short array
-        port = int.from_bytes(connection.recv(2), 'big', signed=False)
-
-        try:
-            if cmd == 1:  # CONNECT
-                remote = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            name= socket.gethostname()
         
 
+
+        port = int.from_bytes(connection.recv(2), 'big', signed=False)
+        port2 = port
+        try:
+           
+
+
+       
+        
+                remote = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 remote.connect((address, port))
-
-
+                #print(" connect to {} \n \n \n ".format(address))
                 bind_address = remote.getsockname()
-                print("* Connected to {} {}".format(address, port))
-            else:
-                connection.close()
 
-            addr = int.from_bytes(socket.inet_aton(bind_address[0]), 'big', signed=False)
-            port = bind_address[1]
+                addr = int.from_bytes(socket.inet_aton(
+                    bind_address[0]), 'big', signed=False)
+                port = bind_address[1]
 
-            reply = b''.join([
-                SOCKS_VERSION.to_bytes(1, 'big'),
-                int(0).to_bytes(1, 'big'),
-                int(0).to_bytes(1, 'big'),
-                int(1).to_bytes(1, 'big'),
-                addr.to_bytes(4, 'big'),
-                port.to_bytes(2, 'big')
+                reply = b''.join([
+                    SOCKS_VERSION.to_bytes(1, 'big'),
+                    int(0).to_bytes(1, 'big'),
+                    int(0).to_bytes(1, 'big'),
+                    int(1).to_bytes(1, 'big'),
+                    addr.to_bytes(4, 'big'),
+                    port.to_bytes(2, 'big')
+
             ])
         except Exception as e:
-            # return connection refused error
-            print(e)
+        
             reply = self.generate_failed_reply(address_type, 5)
+         
 
         connection.sendall(reply)
 
-        # establish data exchange
-        if reply[1] == 0 and cmd == 1:
-            
-            self.exchange_loop(connection, remote)
-
-        connection.close()
-
-    
-    def exchange_loop(self, client:socket.socket, remote:socket.socket):
-        while True:
-            # wait until client or remote is available for read
-            
-            r, w, e = select.select([client, remote], [], [])
-            
-            if client in r:
-
-                data = client.recv(4096)
-                #if b"7827699126" in data:
-                #    print(">>>>"+data.hex())
-                #    print(">>>>"+str(remote))
-                #spam chat 
-                
-                if '1215' in data.hex()[0:4] and self.spam_chat ==True:
-                        
-                        b = threading.Thread(target=self.Spam_Chat, args=( data,))
-                        b.start()
-
-                #Get ip 4 spam
-                if "39698" in str(remote) :
-                    self.spam_ip_39698 = remote
-                if "39800" in str(remote) :
-                    self.spam_ip_39800=remote
-                    print(data.hex())
-                #Spam Invite 
-                if '0515' in data.hex()[0:4] and len(data.hex()) >=820 and self.inviteB==True :
-                        try:
-                        
-                            for i in range(3):
-                                threading.Thread(target=self.Spam_Invite , args=(data )).start()
         
-                        except:
-                            pass
+        self.botdev(connection, remote, port2)
+     
 
-                #AntiKick
-                if '0515' in data.hex()[0:4] and len(data.hex()) >= 141 :
-                    
-                    self.data_join=data
-                        
-                if '0515' in data.hex()[0:4] and len(data.hex()) <50 :
-                    
-                    
-                    self.data_back=data
-        
-
-
-
-                if remote.send(data) <= 0:
-                    break
-
-            if remote in r:
-                data = remote.recv(4096)
-                #----Welcom_Msg_send ----
-                if '0300' in data.hex()[0:4] :
-                    if b"http" in data  :
-                        threading.Thread(target=self.Welcom_Msg_send  ).start()
-                #----Target ip---
-                if "39800"in str(client):
-                    self.BackSpam_ip = client
-                #----Commend Part----
-                if '1200' in data.hex()[0:4]:
-                    if b"#foxy-free" in data:
-                        client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]!Welcome")))
-                        client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]!Welcome"))))
-                        client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[4dd0e1][b]FoxyBot Activ..")))
-                        client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[4dd0e1][b]FoxyBot Activ.."))))
-                        client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[FF0000][b][c]@the_foxy999")))
-                        client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[FF0000][b][c]@the_foxy999"))))
-                        self.command=True
-                        self.BackSpam_ip = client
-
-                    
-                    
-                #fo
-                if '1200' in data.hex()[0:4]:
-                   if b"Dev" in data:
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]فوكسي مطور لعبة!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]فوكسي مطور لعبة!"))))
-                    
-                    
-  
-                    
-                #back Spam Last Sqo
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b"/ca" in data:
-                    self.spamantikick=True
-                    threading.Thread(target=self.SpamAntiKick ).start()
-                    
-                    
-                    
-                   
-                #Spy Normal Last Squd 
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/spy' in data:       
-                    
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b][c]3")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b][c]3"))))
-                    
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b][c]2")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b][c]2"))))
-                    
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b][c]1")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b][c]1"))))
-                    
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]هاقد عدت يااغبياء")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]هاقد عدت يااغبياء"))))
-                    
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]اصمت , انت مخفي !")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]اصمت ,انت مخفي !"))))
-                    
-                    client.send(self.packet_back)
-                    
-                    
-                    
-                #Spam Messag
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/lag' in data:     
-                    self.spam_chat=True
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b][c]رسالتك من فضلك :")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b][c]رسالتك من فضلك :"))))
-                #Spam Messag Off
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/-lag' in data:
-                    self.spam_chat=False
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[FF0000][b][c]تم توقيفه!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[FF0000][b][c]تم توقيفه!"))))
-                #Spam Invite
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/des' in data:
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]الفريق من فضلك!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]الفريق من فضلك!"))))
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[4dd0e1][b]توقف : 60 ثانية")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[4dd0e1][b]توقف : 60 ثانية"))))
-                    self.inviteB=True               
-                #spam Invite Off
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/-des' in data:
-                    self.inviteB=False
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[FF0000][b][c]تم توقيفه!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[FF0000][b][c]تم توقيفه!"))))
-                    
-   
-                #5 sqoud
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/s5' in data:
-                    self.spam_ip_39698.send(b'\x05\x03\x00\x00\x01\xd0\x1f\xb5x11P\x90[\xab\xce\xf5\x1d\xd2N\xd7_\xd0\xa2K\x02K\xd1B\x96F\x11K\xc2.`J\xfd5\xa9o\xbcHq\x0b-\x9c\xfe\xc47\x82\x87\xec\x82\x9e3\xa7\x86\x08\xfd-\xd18\xd4\xd2J\x19\xc0\x0f\xbf\xdc\x9f\x15\xc7\x7f\xf8mc\x8b4\xde\x95\xbd\x88n0u\xe8-?J8\x88\xf9\xb6\x944c\x02,C\xfb\x90\xe2)\xf0\xea\xf8\xa7\x88\xf6\xf7f\xd8\x91\xd9\x9e\xb2\xc3{\'qD\x922\x12\x81\x0b<\x80\xd1\xc5!y\x01T\xed\'\x0fRA\xad\xc16\xf2\xa2(\x16\xe0\xbc\x84\xfc\xafy8k\'U\x9d\xe9f\xaax\x8c\x18M5\xbb\xbf\xaa\x03\xa5\xf0\x87F\xf8\xdb\x0es\xb2\xc9\x1e\xc4Q]a\xf6\x89\xa0\xca\xd3\n|\xbdl2QQ\xe8y\xda\xbcC\xd5\x06\xb3$\n\xbeA\xbc\rkD\x16\xc1\x8fh\xefJ\xf2\xd0L8\x1b\xe6\xbfXok%r|\x0c\x85\xc0:W\x917\xe4\xa6\xc6\x02\xefm\x83=\xab\xda\xb3\xeb\xa3\xa5&nZG1\xfb\xfb\x17 \xb6\x0f\x12L\xd8\xfdO\xa2l\xc7\xa9\xfbn\n!\x8d\x88\t\xf5{ M"\xfa\x97R\n\xeb\x99\x00|{q\xc7\t\xe5>\xcch\x8c\x99c\xe0xi\t\x15/\xa9?\x06\xdc\x93\x08Th\xda\xe3N\x16\t\xf3?}\xee"\x8f\xb0X\xc6\xef\xd6\x84kP\xacT\xdb\n\xeb\xb8\xf5\xbc/gQ\xf9\xe2\x88m\xba\xb4\x1c\xba\xf5\xa1\xd8\xcd\x88\xe6\xc1:**V\xb6\x13\xa2\xd3!y\xdc?x\x14\x93\xa5\x02s"\xac\x0c\xb1\xa2\xd3\xc7\x9dI\xfb\x12\xed&#\x0e\x15a\xdfC\xd3\x15\xa2{\xe1{]\xeb\xdb\xa7W\x803\x05%+TC\xf3\xd7|\xd3\x19\xdd\xe9\xc4\x9ar\xc66\xd9=\x02\xbd\xd9Yqh\xf3x\xaanA\xd0\xfdTZ\xbf\x8b\xc0\x88?=\xac\x11\xea\'\x16f\x83\xc7\x11\x1a\x0f2\x9b\xf6\xb6\xa5')
-                    
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]تحويل سكواد 5 تم!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b][c]تحويل سكواد 5 تم!"))))
-                    
-                #4 sqoud
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/s4' in data:
-                    self.op.send(bytes.fromhex("05150000002000b54843b3c467145c9b8ddcfa4cb489167bd09880be3611b67fec8f0ca66023"))
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b]تحويل سكواد 4 تم!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]تحويل سكواد 4 تم!"))))
-                #2 sqoud
-                if '1200' in data.hex()[0:4] and self.command==True:
-                   if b'/s2' in data:
-                    self.spam_ip_39698.send(bytes.fromhex("05150000002098a0bdfd5abbd47ea20d1652a8fa374c78f2fe11f3bf6f5a15ac2dff2ecfd436"))
-                    client.send(bytes.fromhex(self.MakeMsg4NormalChat(data.hex() ,"[00FF00][b][c]تحويل سكواد 2 تم!")))
-                    client.send(bytes.fromhex(str(self.MakeMsg4Clan(data.hex() ,"[00FF00][b]تحويل سكواد 2 تم!"))))
-                #----Player Info by ID----    
-                if '1200' in data.hex()[0:4] and '33736279' in data.hex() :
-                    self.newdataS2=data.hex()
-                    self.BackSpam_ip = client
-                    self.Target_id= (bytes.fromhex(re.findall(r'33736279(.*?)28' , data.hex()[50:])[0])).decode("utf-8")
-                    
-                    Thread(target=self.Send_full_information).start()
-  
-                #----Spy Packet----
-                if  '0500' in data.hex()[0:4]  : 
-                    if len(data.hex())<=30:
-            
-                        pass
-                    if len(data.hex())>=31:
-                        self.packet_back = data
-                    
-                if client.send(data) <= 0:
-                    break
-                
-
-    
     def generate_failed_reply(self, address_type, error_number):
         return b''.join([
             SOCKS_VERSION.to_bytes(1, 'big'),
@@ -319,264 +235,470 @@ class Proxy:
             int(0).to_bytes(4, 'big')
         ])
 
-
-    def verify_credentials(self, connection):
+    def verify_credentials(self, connection,methods):
+    
+        if 2 in methods:
+           
+            
+            version = ord(connection.recv(1))
         
-        version = ord(connection.recv(1)) # should be 1
 
+            username_len = ord(connection.recv(1))
+            username = connection.recv(username_len).decode('utf-8')
 
-        username_len = ord(connection.recv(1))
-        username = connection.recv(username_len).decode('utf-8')
-        
-        password_len = ord(connection.recv(1))
-        
-        password = connection.recv(password_len).decode('utf-8')
+            password_len = ord(connection.recv(1))
+            password = connection.recv(password_len).decode('utf-8')
+         #   print(username,password)
+            if username == self.username and password == self.password:
 
-        if username  and password :
-            # success, status = 0
+                response = bytes([version, 0])
+                connection.sendall(response)
+         
+ 
+                return True
+            
             response = bytes([version, 0])
             connection.sendall(response)
+    
+            return True
+            
+        else:
+
+            
+            version =1 
+            response = bytes([version, 0])
+            connection.sendall(response)
+            
+ 
             return True
 
-        # failure, status != 0
-        response = bytes([version, 0xFF])
-        connection.sendall(response)
-        connection.close()
-        return False
-
-
     def get_available_methods(self, nmethods, connection):
-        try:
-            methods = []
-            for i in range(nmethods):
-                methods.append(ord(connection.recv(1)))
-            return methods
-        except:
-            pass
+        methods = []
+        for i in range(nmethods):
+            methods.append(ord(connection.recv(1)))
+        return methods
 
     def run(self, host, port):
+        var =  0
+        
+
+        
+
+     
+        
+     
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.bind((host, port))
         s.listen()
-
-        print("* Socks5 proxy server is running on {}:{}".format(host, port))
-
+  
+        
+  
         while True:
-            conn, addr = s.accept()
+            var =var+1
             
+           
+            conn, addr = s.accept()
+            running = False
+          
             t = threading.Thread(target=self.handle_client, args=(conn,))
             t.start()
-    def udp_server(self):
-    
-        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        server_address = ('127.0.0.1', 1234)  
-        sock.bind(server_address)
-        # Listen for incoming datagrams
-        print(f'Server listening on {server_address}')
+  
 
+
+
+
+#  
+    def botdev(self, client, remote, port):
+            
         while True:
+            r, w, e = select.select([client, remote], [], [])
             
-            data ,addre = sock.recvfrom(1024)  
-            if b"/5s" in data:
-                Thread(target=self.Sqoud5mode).start()
-            if b"/spamchat" in data:
-                self.spam_chat=True
-            if b"/-spamchat" in data:
-                self.spam_chat=False
-            if b"/lvl"in data:
-                pass
-            if b"/antikick" in data:
-                self.spamantikick=True
-                Thread(target=self.SpamAntiKick).start()
-            if b"/-antikick" in data:
-                self.spamantikick=False
+            if client in r or remote in r:
+                global op
+                
+                if client in r:
+                    dataC = client.recv(99999)
+                    global foxybot
+                    global msg,command,spy,inviteB      
+                    global remote_send , botcomendenable
+                    
+                    ##
+                    global hide 
+                    hide = False
+                    if '1215' in dataC.hex()[0:4] and msg ==True:
+                        
+                        for i in range(10):
+                            remote.send(dataC)
+                        global spam
+                        time.sleep(1.0)
+                        b = threading.Thread(target=spam, args=(remote,dataC))
+                        b.start()
 
+                    global spams
+                    spams =True
+                    
+                    if '0515' in dataC.hex()[0:4] and len(dataC.hex()) >= 141:
+                        hide = True
+                        
+                    
+                        
+                        ##
+   
+                    if port ==39801 :
+                        remote_send=remote
+                        self.spam_ip_39800.send(data) 
+                        
+                    if "39800" in str(remote) :
+                       self.spam_ip_39800=remote
+
+                    if "39698" in str(remote) :
+                   
+                       self.op = remote
+                       
+                    if port ==39698:
+                        op = remote
+                        invite= remote
+      
+     
+                        op = remote
+                        invite= remote
+                  
+      
+                       
+
+                      
+                    if '0515' in dataC.hex()[0:4] and len(dataC.hex()) >=820 and inviteB==True :
+                        try:
+                        
+                            for i in range(3):
+                                threading.Thread(target=spam1 , args=(dataC , remote)).start()
+        
+                        except:
+                            pass
+                  
+
+
+   
+                                               
+                    if '0515' in dataC.hex()[0:4] and len(dataC.hex()) >= 141 :
+                    
+                        self.data_join=dataC
+                        
+                    if '0515' in dataC.hex()[0:4] and len(dataC.hex()) <50 :
+                    
+                        print(remote)
+                        self.data_back=dataC
+        
+ 
+                        ###
+                        
+                    
+
+
+                        
+
+
+
+###
+                    if remote.send(dataC) <= 0: 
+                            break
+                if remote in r:
+                    global lste
+                    global revoe
+                    global getin
+                    global packet
+                    global socktion
+                    global back
+                    global offline
+                    global wlcm
+                    global ca
+                    global spy
+                    dataS = remote.recv(99999)
+                    
+                    if '1809' in dataS.hex()[26:30]:
+                      print('  full team ')
+                                #hackg.send(hackw
+                    if '0500' in dataS.hex()[0:4] and len(dataS.hex()) > int(1400.1231234234223) and len(dataS.hex()) < int(2000.3242354352345235):
+                        lste = dataS
+                        revoe = client
+                    if '0300' in dataS.hex()[0:4] :
+                        #print('yes')
+                        C = client
+                        
+                        if b"http" in dataS and wlcm == True :
+                            
+                            threading.Thread(target=self.Welcom_Msg_send  ).start()
+                            
+                            print("Welcome back !!")
+                            
+           
+
+                   
+                        socketsender =client
+                        
+                        if b'Ranked Mode' in dataS:
+                            #print("w")
+                            client.send(dataS)
+                        else:
+
+
+                            
+                            if b'catbarq' in dataS:
+                                vdsf=3
+                            else:
+                          #                            
+                                hackw= dataS
+                                hackg= client
+
+                                if len(dataS.hex()) <= 100:
+                                    e=2
+                                else:
+                                    if command ==True:
+
+                                        print("BOT Online !!")
+
+                                    else:
+                                        if command ==False:
+                                            print("BOT Offline !!")
+
+                    else:
+                      if '0500' in dataS.hex()[:4] and b'\x05\x15\x00\x00\x00\x10Z\xca\xf5&T;\x0cA\x01\x16\xe0\x05\xb2\xea\xe4\x0b' in dataC:
+                        f=2
+
+                      else: 
+
+##Menuu      
+              
+#Activation Code !
+
+                        if '1200' in dataS.hex()[0:4] and foxybot==True:
+                           if b"#foxy-free" in dataS:
+                            command=True
+                            threading.Thread(target=self.Activ_Code ).start()
+                            
+                            foxybot=False
+
+#Back Last Player !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b"/rec" in dataS:
+                            revoe.send(lste)
+
+
+#/
+
+                            
+                            
+
+#foxy
+
+
+
+                            
+#Back Last Sqoud !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b"/back" in dataS:
+                            back=True
+                            threading.Thread(target=self.foxy , args=(self.data_join,)).start()
+                            
+
+                            
+#back Spam Last Sqoud
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b"/ca" in dataS:
+                            ca=True
+                            threading.Thread(target=self.walid , args=(self.data_join,)).start()
+
+
+                            
+                            
+                            
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b"/ca" in dataS:
+                            time.sleep(30.0)
+                            ca=False
+                            threading.Thread(target=self.Stop_All1).start()
+                       
+
+                            
+
+#Spy Normal Last Sqoud !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/spy' in dataS:       
+                            client.send(dataS)
+                            socktion.send(packet)
+
+                            
+                            
+#Spam Messag !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/lag' in dataS:     
+                            msg=True
+                            threading.Thread(target=self.running1 ).start()
+                       
+
+
+#Spam Messag Off !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/-lag' in dataS:
+                            msg=False
+                            threading.Thread(target=self.Stop_All1 ).start()
+                       
+
+#Spam Invite !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/des' in dataS:
+                            threading.Thread(target=self.running1 ).start()
+                            inviteB=True
+
+                       
+#spam Invite Off !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/-des' in dataS:
+                            inviteB=False
+                            threading.Thread(target=self.Stop_All1 ).start()
+                       
+
+#tsq  !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/tsq' in dataS:
+                            self.op.send(bytes.fromhex("05150000002000b54843b3c467145c9b8ddcfa4cb489167bd09880be3611b67fec8f0ca66023"))
+
+                            
+#5 sqoud !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b'/s5' in dataS:
+                            threading.Thread(target=self.update1 ).start()
+                       
+                        
+                           
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                            
+
+#4 sqoud !
+
+
+                          
+#anti kick !
+                        if '1200' in dataS.hex()[0:4] and command==True:
+                           if b"/no" in dataS:
+                            offline=True
             
-            # Print the received message
-            print(f'Received message: {data}')
+                            
 
-        #120000003f08aee0ab841d101220022a3308aee0ab841d10aee0ab841d2204626f74732896d8e3a3064a0f0a09746573745f626f745f20013802520261726a0410011802
-    def MakeMsg4NormalChat(self , packet ,replay  ):
-        
-        replay  = replay.encode('utf-8')
-        replay = replay.hex()
-        
 
-        hedar = packet[0:8]
-        packetLength = packet[8:10] #
-        paketBody = packet[10:32]
-        pyloadbodyLength = packet[32:34]#
-        pyloadbody2= packet[34:60]
+                        if  '0500' in dataS.hex()[0:4] and hide == True  :
+                            socktion =client
+                        
+                            
+                            if len(dataS.hex())<=30:
+                    
+                                hide =True
+                            if len(dataS.hex())>=31:
+                                packet = dataS
+                              
+                                hide = False
+
+                        if  '0f00' in dataS.hex()[0:4] and msg==True :
+
+                            threading.Thread(target=self.Stop_All1 ).start()
+                       
+                            msg = False
+                                
+                        if  '0f00' in dataS.hex()[0:4] and offline==True :
+
+                            threading.Thread(target=self.running1 ).start()
+                       
+                            connection.close()
+                        if  '0f00' in dataS.hex()[0:4] and wlcm == True:
+
+                            wlcm = False
+     
+                                
+                        if client.send(dataS) <= 0:
+                            break
+
+
+
+    def Activ_Code(self):
         
-        pyloadlength = packet[60:62]#
-        
-        pyloadtext  = re.findall(r'{}(.*?)28'.format(pyloadlength) , packet[50:])[0]
-        pyloadTile = packet[int(int(len(pyloadtext))+62):]
-        
-        
-        NewTextLength = (hex((int(f'0x{pyloadlength}', 16) - int(len(pyloadtext)//2) ) + int(len(replay)//2))[2:])
-        if len(NewTextLength) ==1:
-            NewTextLength = "0"+str(NewTextLength)
+        for data in self.Activ_Code1:
+            sleep(0.8)
+            self.spam_ip_39800.send(data) 
             
-        NewpaketLength = hex(((int(f'0x{packetLength}', 16) - int((len(pyloadtext))//2) ) ) + int(len(replay)//2) )[2:]
-        NewPyloadLength = hex(((int(f'0x{pyloadbodyLength}', 16) - int(len(pyloadtext)//2))  )+ int(len(replay)//2) )[2:]
-
-        finallyPacket = hedar + NewpaketLength +paketBody + NewPyloadLength +pyloadbody2+NewTextLength+ replay + pyloadTile
-        
-        return str(finallyPacket)
-        #120000004108aee0ab841d101220022a3508aee0ab841d10e2aabee50318012204626f747328dfd7e3a3064a0f0a09746573745f626f745f20013802520261726a0410011802
-    def MakeMsg4Clan(self ,  packet , replay  ):
-        replay  = replay.encode('utf-8')
-        replay = replay.hex()
-        hedar = packet[0:8]
-        packetLength = packet[8:10] #
-        paketBody = packet[10:32]
-        pyloadbodyLength = packet[32:34]#
-        pyloadbody2= packet[34:64]
-        pyloadlength = packet[64:66]#
-        
-        pyloadtext  = re.findall(r'{}(.*?)28'.format(pyloadlength) , packet[50:])[0]
-        pyloadTile = packet[int(int(len(pyloadtext))+66):]
-        NewTextLength = (hex((int(f'0x{pyloadlength}', 16) - int(len(pyloadtext)//2) ) + int(len(replay)//2))[2:])
-        if len(NewTextLength) ==1:
-            NewTextLength = "0"+str(NewTextLength)
-        NewpaketLength = hex(((int(f'0x{packetLength}', 16) - int(len(pyloadtext)//2) ) - int(len(pyloadlength))) + int(len(replay)//2) + int(len(NewTextLength)))[2:]
-        NewPyloadLength = hex(((int(f'0x{pyloadbodyLength}', 16) - int(len(pyloadtext)//2)) -int(len(pyloadlength)) )+ int(len(replay)//2) + int(len(NewTextLength)))[2:]
-        finallyPacket = hedar + NewpaketLength +paketBody + NewPyloadLength +pyloadbody2+NewTextLength+ replay + pyloadTile
-        return finallyPacket
-    def GetIdStatu(self ,Id):
-        r= requests.get('https://ff.garena.com/api/antihack/check_banned?lang=en&uid={}'.format(Id)) 
-        a = "0"
-        if  a in r.text :
-            return("الحساب مش مبند ")
-        else: 
-            return("تم تعليقه !!")
-    def GetNameById(self, Id )  :
-        
-        url = "https://shop2game.com/api/auth/player_id_login"
-        headers = {
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Connection': 'keep-alive',
-    
-        'Origin': 'https://shop2game.com',
-        'Referer': 'https://shop2game.com/app',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-origin',
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',
-        'accept': 'application/json',
-        'content-type': 'application/json',
-        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-        'sec-ch-ua-mobile': '?1',
-        'sec-ch-ua-platform': '"Android"',
-        'x-datadome-clientid': '6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0',
-        }
-        payload = {
-            "app_id": 100067,
-            "login_id": f"{Id}",
-            "app_server_id": 0,
-        }
-        response = requests.post(url, headers=headers, json=payload)
-        try:
-            if response.status_code == 200:
-                return response.json()['nickname']
-            else:
-                return(f"ERROR")
-        except:
-            return("عذرا , لم يتم إيجاد حسابك !! ")
-    def GetIdRegion(Id):    
-        
-        url = "https://shop2game.com/api/auth/player_id_login"
-        headers = {
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Connection': 'keep-alive',
-    
-        'Origin': 'https://shop2game.com',
-        'Referer': 'https://shop2game.com/app',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-origin',
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 11; Redmi Note 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',
-        'accept': 'application/json',
-        'content-type': 'application/json',
-        'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
-        'sec-ch-ua-mobile': '?1',
-        'sec-ch-ua-platform': '"Android"',
-        'x-datadome-clientid': '6h5F5cx_GpbuNtAkftMpDjsbLcL3op_5W5Z-npxeT_qcEe_7pvil2EuJ6l~JlYDxEALeyvKTz3~LyC1opQgdP~7~UDJ0jYcP5p20IQlT3aBEIKDYLH~cqdfXnnR6FAL0',
-        }
-        payload = {
-            "app_id": 100067,
-            "login_id": f"{Id}",
-            "app_server_id": 0,
-        }
-        response = requests.post(url, headers=headers, json=payload)
-        try:
-            if response.status_code == 200:
-                return response.json()['region']
-            else:
-                return(f"ERROR")
-        except:
-            return("عذرا , لم يتم إيجاد حسابك !!")
-    def Spam_Invite(self , data):
-        while self.inviteB==True:
-            try:
-                self.spam_ip_39698.send(data)
-                sleep(0.08)
-            except:
-                pass
-    def Spam_Chat(self , data):
-        while self.spam_chat==True:
-            try:
-                self.spam_ip_39800.send(data)
-                sleep(0.08)
-            except:
-                pass
-    def Sqoud5mode(self ) :
-
-        self.spam_ip_39698.send(b'\x05\x03\x00\x00\x01\xd0\x1f\xb5x11P\x90[\xab\xce\xf5\x1d\xd2N\xd7_\xd0\xa2K\x02K\xd1B\x96F\x11K\xc2.`J\xfd5\xa9o\xbcHq\x0b-\x9c\xfe\xc47\x82\x87\xec\x82\x9e3\xa7\x86\x08\xfd-\xd18\xd4\xd2J\x19\xc0\x0f\xbf\xdc\x9f\x15\xc7\x7f\xf8mc\x8b4\xde\x95\xbd\x88n0u\xe8-?J8\x88\xf9\xb6\x944c\x02,C\xfb\x90\xe2)\xf0\xea\xf8\xa7\x88\xf6\xf7f\xd8\x91\xd9\x9e\xb2\xc3{\'qD\x922\x12\x81\x0b<\x80\xd1\xc5!y\x01T\xed\'\x0fRA\xad\xc16\xf2\xa2(\x16\xe0\xbc\x84\xfc\xafy8k\'U\x9d\xe9f\xaax\x8c\x18M5\xbb\xbf\xaa\x03\xa5\xf0\x87F\xf8\xdb\x0es\xb2\xc9\x1e\xc4Q]a\xf6\x89\xa0\xca\xd3\n|\xbdl2QQ\xe8y\xda\xbcC\xd5\x06\xb3$\n\xbeA\xbc\rkD\x16\xc1\x8fh\xefJ\xf2\xd0L8\x1b\xe6\xbfXok%r|\x0c\x85\xc0:W\x917\xe4\xa6\xc6\x02\xefm\x83=\xab\xda\xb3\xeb\xa3\xa5&nZG1\xfb\xfb\x17 \xb6\x0f\x12L\xd8\xfdO\xa2l\xc7\xa9\xfbn\n!\x8d\x88\t\xf5{ M"\xfa\x97R\n\xeb\x99\x00|{q\xc7\t\xe5>\xcch\x8c\x99c\xe0xi\t\x15/\xa9?\x06\xdc\x93\x08Th\xda\xe3N\x16\t\xf3?}\xee"\x8f\xb0X\xc6\xef\xd6\x84kP\xacT\xdb\n\xeb\xb8\xf5\xbc/gQ\xf9\xe2\x88m\xba\xb4\x1c\xba\xf5\xa1\xd8\xcd\x88\xe6\xc1:**V\xb6\x13\xa2\xd3!y\xdc?x\x14\x93\xa5\x02s"\xac\x0c\xb1\xa2\xd3\xc7\x9dI\xfb\x12\xed&#\x0e\x15a\xdfC\xd3\x15\xa2{\xe1{]\xeb\xdb\xa7W\x803\x05%+TC\xf3\xd7|\xd3\x19\xdd\xe9\xc4\x9ar\xc66\xd9=\x02\xbd\xd9Yqh\xf3x\xaanA\xd0\xfdTZ\xbf\x8b\xc0\x88?=\xac\x11\xea\'\x16f\x83\xc7\x11\x1a\x0f2\x9b\xf6\xb6\xa5')
-    def SpamAntiKick( self , data_join):
-        
-        
-        while self.spamantikick==True:
-            try:
-                self.spam_ip_39698.send(data_join)
-                sleep(1.2)
-                self.spam_ip_39698.send(self.data_back)
-            except Exception as e:
-                pass     
+            
     def Welcom_Msg_send(self):
         
         for data in self.__list_:
             sleep(0.8)
-            self.spam_ip_39800.send(data)  
-    def Send_full_information(self):
-        try:
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4NormalChat(self.newdataS2,f"[00FF00][b][c]لحضة  !!")))
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[00FF00][b][c]لحضة  !!")))
+            self.spam_ip_39800.send(data) 
             
             
+    def running1(self):
         
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4NormalChat(self.newdataS2,f"[4dd0e1][b][c]جاري تسجيل دخول الحساب.. ")))
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[4dd0e1][b][c]جاري تسجيل دخول الحساب.. ")))                           
+        for data in self.running:
+            sleep(0.8)
+            self.spam_ip_39800.send(data) 
+            
+    def Stop_All1(self):
+        
+        for data in self.Stop_All:
+            sleep(0.8)
+            self.spam_ip_39800.send(data) 
+            
+    def update1(self):
+        
+        for data in self.update:
+            sleep(0.8)
+            self.spam_ip_39800.send(data) 
             
             
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4NormalChat(self.newdataS2,f"[ff5722][b][c]{self.GetIdStatu(self.Target_id)}")))
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[ff5722][b][c]{self.GetIdStatu(self.Target_id)}")))                           
-            
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4NormalChat(self.newdataS2,f"[00FF00][b][c]-----------------------------------")))
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[00FF00][b][c]-----------------------------------")))    
             
             
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4NormalChat(self.newdataS2,f"[FF0000][b][c] FoxyBot (Beta)")))
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[FF0000][b][c] FoxyBot (Beta)")))    
             
-            
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4NormalChat(self.newdataS2,f"[00FF00][b][c]@the_foxy999")))
-            self.BackSpam_ip.send(bytes.fromhex(self.MakeMsg4Clan(self.newdataS2,f"[00FF00][b][c]@the_foxy999")))  
-        except:
-            pass
-    
 
+                            
+    def foxy( self , data_join):
+        global back
+       
+        while back==True:
+            try:
+                self.op.send(data_join)
+                time.sleep(9999.0)
+                #                           0515000000104903408b9e91774e75b990038dddee49
+            except Exception as e:
+                pass
+                            
+    #fuction SPAM BACK !
+    def walid( self , data_join):
+        global ca
+        
+        while ca==True:
+            try:
+                self.op.send(data_join)
+                time.sleep(1.2)
+                self.op.send(self.data_back)
+                #                           0515000000104903408b9e91774e75b990038dddee49
+            except Exception as e:
+                pass
+
+def spam1( data,remote):
+    try:
+        for i in range(300):
+            remote.send(data)
+    except:
+        pass
+
+#function BOT !
 def start_bot():
-    proxy = Proxy()
-    proxy.run("127.0.0.1", 3000)
+    try :
+        Proxy().run('127.0.0.1',3000)
+    except Exception as e:
+        sea=2
+start_bot()
