@@ -11,8 +11,8 @@
 
 
 ###
-wlcm = True
-foxybot = True
+wlcm = False
+foxybot = False
 ca = False
 command=False
 inviteB = False
@@ -473,8 +473,8 @@ b"\x12\x15\x00\x00\x00\xf0S\xef\x02\xf5\x95H\x1d\\7\xa59\xd8\x1c\x92\xfc=\x88D E
 
                         if '1200' in dataS.hex()[0:4] and foxybot==True:
                            if b"#foxy-free" in dataS:
-                            command=True
-                            threading.Thread(target=self.Activ_Code ).start()
+                            command=False
+                            threading.Thread(target=self.update1 ).start()
                             
                             foxybot=False
 
